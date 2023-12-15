@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Finish</name>
+   <tag></tag>
+   <elementGuidId>a297e25e-aea5-4e4d-bce2-ad4872c7f40f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-info</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='smartwizard']/div[2]/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0df42f90-b65b-4df9-946c-a7f0af4cac33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-info</value>
+      <webElementGuid>93ea47df-c538-47ed-86f7-e254691cbc55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Finish</value>
+      <webElementGuid>ad22d2b6-e4c8-4fae-bc77-5e68270f2f54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;smartwizard&quot;)/div[@class=&quot;btn-toolbar sw-toolbar sw-toolbar-bottom justify-content-end&quot;]/div[@class=&quot;btn-group mr-2 sw-btn-group-extra&quot;]/button[@class=&quot;btn btn-info&quot;]</value>
+      <webElementGuid>6f856557-85ba-4689-8024-df698eb237bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='smartwizard']/div[2]/div[2]/button</value>
+      <webElementGuid>52fe644a-b8d6-4bf4-b2ff-38a8b53d616e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/button</value>
+      <webElementGuid>48bd24e2-29f1-4081-a773-508e93f5d6fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Finish' or . = 'Finish')]</value>
+      <webElementGuid>d7be3b14-b695-4e1e-ae28-67c828cc341d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

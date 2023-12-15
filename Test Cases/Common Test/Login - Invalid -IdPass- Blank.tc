@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Invalid -IdPass- Blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0183fee-6a8a-48bb-beb6-7ced1079996a</testCaseGuid>
+</TestCaseEntity>
