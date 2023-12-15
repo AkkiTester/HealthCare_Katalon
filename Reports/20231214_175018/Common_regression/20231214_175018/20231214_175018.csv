@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Common_regression,Chrome 120.0.6099.71,,,14-12-2023 17:50:30,14-12-2023 17:50:47,16.619s,PASSED
+,,,,,,,
+Test Cases/Common Test/Login,Chrome 120.0.6099.71,,,14-12-2023 17:50:31,14-12-2023 17:50:47,15.772s,PASSED
+"openBrowser("""")",Chrome 120.0.6099.71,,,14-12-2023 17:50:32,14-12-2023 17:50:35,2.864s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.6099.71,,,14-12-2023 17:50:35,14-12-2023 17:50:42,6.598s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ID)",Chrome 120.0.6099.71,,,14-12-2023 17:50:42,14-12-2023 17:50:42,0.944s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), Pass)",Chrome 120.0.6099.71,,,14-12-2023 17:50:42,14-12-2023 17:50:43,0.371s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.6099.71,,,14-12-2023 17:50:43,14-12-2023 17:50:46,3.623s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/span_Admin""), Name)",Chrome 120.0.6099.71,,,14-12-2023 17:50:46,14-12-2023 17:50:47,0.243s,PASSED
+closeBrowser(),Chrome 120.0.6099.71,,,14-12-2023 17:50:47,14-12-2023 17:50:47,0.186s,PASSED

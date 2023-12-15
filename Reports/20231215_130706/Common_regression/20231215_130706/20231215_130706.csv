@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Common_regression,Chrome 120.0.0.0,,,15-12-2023 13:07:16,15-12-2023 13:10:02,2m - 46.502s,PASSED
+,,,,,,,
+Test Cases/Common Test/Login - Valid - Pass,Chrome 120.0.0.0,,,15-12-2023 13:07:16,15-12-2023 13:07:35,18.952s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,15-12-2023 13:07:17,15-12-2023 13:07:20,3.154s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,15-12-2023 13:07:20,15-12-2023 13:07:25,4.431s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ID)",Chrome 120.0.0.0,,,15-12-2023 13:07:25,15-12-2023 13:07:28,3.593s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), Pass)",Chrome 120.0.0.0,,,15-12-2023 13:07:28,15-12-2023 13:07:29,1.305s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,15-12-2023 13:07:29,15-12-2023 13:07:34,4.363s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/span_Admin""))",Chrome 120.0.0.0,,,15-12-2023 13:07:34,15-12-2023 13:07:34,0.580s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/p_Admin""), Name)",Chrome 120.0.0.0,,,15-12-2023 13:07:34,15-12-2023 13:07:35,0.506s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,15-12-2023 13:07:35,15-12-2023 13:07:35,0.399s,PASSED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Id,Chrome 120.0.0.0,,,15-12-2023 13:07:35,15-12-2023 13:07:46,10.534s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,15-12-2023 13:07:36,15-12-2023 13:07:37,1.386s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,15-12-2023 13:07:37,15-12-2023 13:07:42,4.936s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_email""), ""Akash@gmail.com"")",Chrome 120.0.0.0,,,15-12-2023 13:07:42,15-12-2023 13:07:43,0.879s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_password""), ""123456"")",Chrome 120.0.0.0,,,15-12-2023 13:07:43,15-12-2023 13:07:44,0.942s,PASSED
+"click(findTestObject(""Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,15-12-2023 13:07:44,15-12-2023 13:07:45,1.338s,PASSED
+"verifyElementPresent(findTestObject(""Page_Demo Hospital/h3_Sign in""), 0)",Chrome 120.0.0.0,,,15-12-2023 13:07:45,15-12-2023 13:07:45,0.462s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,15-12-2023 13:07:45,15-12-2023 13:07:46,0.384s,PASSED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Pass,Chrome 120.0.0.0,,,15-12-2023 13:07:46,15-12-2023 13:07:56,10.047s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,15-12-2023 13:07:46,15-12-2023 13:07:47,1.343s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,15-12-2023 13:07:47,15-12-2023 13:07:52,4.550s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ID)",Chrome 120.0.0.0,,,15-12-2023 13:07:52,15-12-2023 13:07:53,0.891s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), ""1234"")",Chrome 120.0.0.0,,,15-12-2023 13:07:53,15-12-2023 13:07:54,0.864s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,15-12-2023 13:07:54,15-12-2023 13:07:55,1.521s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Hospital/h3_Sign in""), 0)",Chrome 120.0.0.0,,,15-12-2023 13:07:55,15-12-2023 13:07:56,0.401s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,15-12-2023 13:07:56,15-12-2023 13:07:56,0.263s,PASSED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Id - Blank,Chrome 120.0.0.0,,,15-12-2023 13:07:56,15-12-2023 13:08:06,10.201s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,15-12-2023 13:07:56,15-12-2023 13:07:58,1.427s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,15-12-2023 13:07:58,15-12-2023 13:08:03,4.984s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_email""), """")",Chrome 120.0.0.0,,,15-12-2023 13:08:03,15-12-2023 13:08:03,0.772s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_password""), ""123456"")",Chrome 120.0.0.0,,,15-12-2023 13:08:03,15-12-2023 13:08:04,0.748s,PASSED
+"click(findTestObject(""Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,15-12-2023 13:08:04,15-12-2023 13:08:05,1.382s,PASSED
+"verifyElementPresent(findTestObject(""Page_Demo Hospital/h3_Sign in""), 0)",Chrome 120.0.0.0,,,15-12-2023 13:08:05,15-12-2023 13:08:06,0.381s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,15-12-2023 13:08:06,15-12-2023 13:08:06,0.286s,PASSED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Pass - Blank,Chrome 120.0.0.0,,,15-12-2023 13:08:06,15-12-2023 13:08:16,10.342s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,15-12-2023 13:08:06,15-12-2023 13:08:08,1.343s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,15-12-2023 13:08:08,15-12-2023 13:08:12,4.782s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_email""), ID)",Chrome 120.0.0.0,,,15-12-2023 13:08:12,15-12-2023 13:08:13,0.913s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_password""), """")",Chrome 120.0.0.0,,,15-12-2023 13:08:13,15-12-2023 13:08:14,0.829s,PASSED
+"click(findTestObject(""Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,15-12-2023 13:08:14,15-12-2023 13:08:16,1.520s,PASSED
+"verifyElementPresent(findTestObject(""Page_Demo Hospital/h3_Sign in""), 0)",Chrome 120.0.0.0,,,15-12-2023 13:08:16,15-12-2023 13:08:16,0.411s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,15-12-2023 13:08:16,15-12-2023 13:08:16,0.361s,PASSED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -IdPass- Blank,Chrome 120.0.0.0,,,15-12-2023 13:08:17,15-12-2023 13:08:27,10.424s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,15-12-2023 13:08:17,15-12-2023 13:08:18,1.252s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,15-12-2023 13:08:18,15-12-2023 13:08:23,5.113s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_email""), """")",Chrome 120.0.0.0,,,15-12-2023 13:08:23,15-12-2023 13:08:24,0.815s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_password""), """")",Chrome 120.0.0.0,,,15-12-2023 13:08:24,15-12-2023 13:08:25,0.894s,PASSED
+"click(findTestObject(""Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,15-12-2023 13:08:25,15-12-2023 13:08:26,1.427s,PASSED
+"verifyElementPresent(findTestObject(""Page_Demo Hospital/h3_Sign in""), 0)",Chrome 120.0.0.0,,,15-12-2023 13:08:26,15-12-2023 13:08:27,0.439s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,15-12-2023 13:08:27,15-12-2023 13:08:27,0.339s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Add_Patient,Chrome 120.0.0.0,,,15-12-2023 13:08:27,15-12-2023 13:10:02,1m - 35.434s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Chrome 120.0.0.0,,,15-12-2023 13:08:27,15-12-2023 13:08:40,13.081s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-user""))",Chrome 120.0.0.0,,,15-12-2023 13:08:40,15-12-2023 13:08:42,1.293s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/a_Add Patient""))",Chrome 120.0.0.0,,,15-12-2023 13:08:42,15-12-2023 13:08:44,2.363s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_full_name""), ""Test12"")",Chrome 120.0.0.0,,,15-12-2023 13:08:44,15-12-2023 13:08:45,0.883s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_user_name""), ""TestUser"")",Chrome 120.0.0.0,,,15-12-2023 13:08:45,15-12-2023 13:08:46,0.963s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_mobile_no""), ""1111111111"")",Chrome 120.0.0.0,,,15-12-2023 13:08:46,15-12-2023 13:08:47,0.933s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther""), ""1"", true)",Chrome 120.0.0.0,,,15-12-2023 13:08:47,15-12-2023 13:08:48,1.240s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther""), ""1"", true)",Chrome 120.0.0.0,,,15-12-2023 13:08:48,15-12-2023 13:08:49,1.164s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_dob""))",Chrome 120.0.0.0,,,15-12-2023 13:08:49,15-12-2023 13:08:50,0.467s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/td_1""))",Chrome 120.0.0.0,,,15-12-2023 13:08:50,15-12-2023 13:08:50,0.617s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Next""))",Chrome 120.0.0.0,,,15-12-2023 13:08:50,15-12-2023 13:08:51,0.653s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e""))",Chrome 120.0.0.0,,,15-12-2023 13:08:51,15-12-2023 13:08:52,0.676s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e""), ""1"", STOP_ON_FAILURE)",Chrome 120.0.0.0,,,15-12-2023 13:08:52,15-12-2023 13:08:53,1.124s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Next""))",Chrome 120.0.0.0,,,15-12-2023 13:08:53,15-12-2023 13:08:53,0.546s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email_1""), ""testuser@gmail.com"")",Chrome 120.0.0.0,,,15-12-2023 13:08:53,15-12-2023 13:08:54,1.016s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password_1""), ""Test@123"")",Chrome 120.0.0.0,,,15-12-2023 13:08:54,15-12-2023 13:08:56,1.466s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_confirm_password""), ""Test@123"")",Chrome 120.0.0.0,,,15-12-2023 13:08:56,15-12-2023 13:08:57,0.892s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Finish""))",Chrome 120.0.0.0,,,15-12-2023 13:08:57,15-12-2023 13:08:57,0.568s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_custom-btn""), ""Test12"")",Chrome 120.0.0.0,,,15-12-2023 13:08:57,15-12-2023 13:10:00,1m - 3.075s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/td_Test12""), ""Test12"")",Chrome 120.0.0.0,,,15-12-2023 13:10:00,15-12-2023 13:10:02,1.739s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,15-12-2023 13:10:02,15-12-2023 13:10:02,0.358s,PASSED

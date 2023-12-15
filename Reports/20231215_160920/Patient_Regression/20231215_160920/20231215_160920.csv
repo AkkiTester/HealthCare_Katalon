@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Patient_Regression,Firefox 120.0,,,15-12-2023 16:09:30,15-12-2023 16:13:24,3m - 53.906s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Add_Patient,Firefox 120.0,,,15-12-2023 16:09:31,15-12-2023 16:11:03,1m - 32.511s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Firefox 120.0,,,15-12-2023 16:09:32,15-12-2023 16:09:52,20.066s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-user""))",Firefox 120.0,,,15-12-2023 16:09:52,15-12-2023 16:10:25,32.989s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/a_Add Patient""))",Firefox 120.0,,,15-12-2023 16:10:25,15-12-2023 16:10:31,6.186s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_full_name""), ""Test12"")",Firefox 120.0,,,15-12-2023 16:10:31,15-12-2023 16:10:39,7.593s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_user_name""), ""TestUser"")",Firefox 120.0,,,15-12-2023 16:10:39,15-12-2023 16:10:40,1.243s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_mobile_no""), ""1111111111"")",Firefox 120.0,,,15-12-2023 16:10:40,15-12-2023 16:10:41,1.040s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther""), ""1"", true)",Firefox 120.0,,,15-12-2023 16:10:41,15-12-2023 16:10:42,1.327s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther""), ""1"", true)",Firefox 120.0,,,15-12-2023 16:10:42,15-12-2023 16:10:43,1.087s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_dob""))",Firefox 120.0,,,15-12-2023 16:10:43,15-12-2023 16:10:44,0.633s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/td_1""))",Firefox 120.0,,,15-12-2023 16:10:44,15-12-2023 16:10:45,0.614s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Next""))",Firefox 120.0,,,15-12-2023 16:10:45,15-12-2023 16:10:45,0.397s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e""))",Firefox 120.0,,,15-12-2023 16:10:45,15-12-2023 16:10:46,0.857s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e""), ""1"", STOP_ON_FAILURE)",Firefox 120.0,,,15-12-2023 16:10:46,15-12-2023 16:10:47,1.155s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Next""))",Firefox 120.0,,,15-12-2023 16:10:47,15-12-2023 16:10:48,0.412s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email_1""), ""testuser@gmail.com"")",Firefox 120.0,,,15-12-2023 16:10:48,15-12-2023 16:10:48,0.871s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password_1""), ""Test@123"")",Firefox 120.0,,,15-12-2023 16:10:48,15-12-2023 16:10:49,1.039s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_confirm_password""), ""Test@123"")",Firefox 120.0,,,15-12-2023 16:10:49,15-12-2023 16:10:50,0.802s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Finish""))",Firefox 120.0,,,15-12-2023 16:10:50,15-12-2023 16:10:51,0.855s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_form-control input-sm""), ""Test12"")",Firefox 120.0,,,15-12-2023 16:10:51,15-12-2023 16:10:58,6.794s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/td_Test12""), ""Test12"")",Firefox 120.0,,,15-12-2023 16:10:58,15-12-2023 16:11:01,3.416s,PASSED
+closeBrowser(),Firefox 120.0,,,15-12-2023 16:11:01,15-12-2023 16:11:03,2.052s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Edit_Patient_Info,Firefox 120.0,,,15-12-2023 16:11:03,15-12-2023 16:12:25,1m - 21.255s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Firefox 120.0,,,15-12-2023 16:11:04,15-12-2023 16:11:18,13.958s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-user""))",Firefox 120.0,,,15-12-2023 16:11:18,15-12-2023 16:11:51,32.902s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_form-control input-sm""), ""xyz"")",Firefox 120.0,,,15-12-2023 16:11:51,15-12-2023 16:11:56,5.739s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-edit""))",Firefox 120.0,,,15-12-2023 16:11:56,15-12-2023 16:12:01,4.933s,PASSED
+"navigateToUrl(""https://hospitalb.com/outdoor/edit-patient/2#step-1"")",Firefox 120.0,,,15-12-2023 16:12:01,15-12-2023 16:12:01,0.049s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_mobile_no""), ""1234567890"")",Firefox 120.0,,,15-12-2023 16:12:01,15-12-2023 16:12:10,8.867s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Finish""))",Firefox 120.0,,,15-12-2023 16:12:10,15-12-2023 16:12:12,2.030s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_form-control input-sm""), ""xyz"")",Firefox 120.0,,,15-12-2023 16:12:12,15-12-2023 16:12:18,5.632s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Demo Hospital/td_1234567890""))",Firefox 120.0,,,15-12-2023 16:12:18,15-12-2023 16:12:22,4.232s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/td_1234567890""), ""1234567890"")",Firefox 120.0,,,15-12-2023 16:12:22,15-12-2023 16:12:22,0.422s,PASSED
+closeBrowser(),Firefox 120.0,,,15-12-2023 16:12:22,15-12-2023 16:12:25,2.198s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Search_Patient,Firefox 120.0,,,15-12-2023 16:12:25,15-12-2023 16:13:24,59.618s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Firefox 120.0,,,15-12-2023 16:12:25,15-12-2023 16:12:40,14.846s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-user""))",Firefox 120.0,,,15-12-2023 16:12:40,15-12-2023 16:13:13,32.966s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_form-control input-sm""), ""Test12"")",Firefox 120.0,,,15-12-2023 16:13:13,15-12-2023 16:13:18,5.686s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/td_Test12""), ""Test12"")",Firefox 120.0,,,15-12-2023 16:13:18,15-12-2023 16:13:22,3.943s,PASSED
+closeBrowser(),Firefox 120.0,,,15-12-2023 16:13:22,15-12-2023 16:13:24,1.904s,PASSED

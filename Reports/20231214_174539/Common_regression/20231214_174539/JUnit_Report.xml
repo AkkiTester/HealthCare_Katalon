@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Common_regression" time="19.672" tests="1" failures="0" errors="0">
+   <testsuite name="Common_regression" tests="1" failures="0" errors="0" time="19.672" skipped="0" timestamp="14-12-2023T17:45:52" hostname="ADMIN - DESKTOP-28CK1DU.mshome.net" id="Test Suites/Common_regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231214_174539\\Common_regression\\20231214_174539"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231214_174539\\Common_regression\\20231214_174539\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADMIN - DESKTOP-28CK1DU.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="172.29.16.1"/>
+         <property name="sessionId" value="1c22365e4861502f0807025ec1d40abf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common Test/Login" time="19.133" classname="Test Cases/Common Test/Login" status="PASSED">
+         <system-out><![CDATA[14-12-2023T17:45:52 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login: Test Cases/Common Test/Login
+
+14-12-2023T17:45:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-12-2023T17:45:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-12-2023T17:45:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-12-2023T17:45:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-12-2023T17:45:57 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+14-12-2023T17:46:02 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+14-12-2023T17:46:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_email"), ID): Text 'admin@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+14-12-2023T17:46:04 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+14-12-2023T17:46:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_password"), Pass): Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+14-12-2023T17:46:05 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+14-12-2023T17:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+14-12-2023T17:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+14-12-2023T17:46:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Hospital/span_Admin"), Name): Actual text and expected text of test object 'Object Repository/Page_Demo Hospital/span_Admin' are matched.
+
+14-12-2023T17:46:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Hospital/span_Admin' are matched.
+
+14-12-2023T17:46:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-12-2023T17:46:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-12-2023T17:45:52 - [TEST_SUITE][PASSED] - Common_regression: Test Cases/Common Test/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

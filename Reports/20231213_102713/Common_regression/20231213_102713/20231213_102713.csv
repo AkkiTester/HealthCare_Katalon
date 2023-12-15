@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Common_regression,Chrome 119.0.0.0,,,13-12-2023 10:27:29,13-12-2023 10:28:05,36.651s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login,Chrome 119.0.0.0,,,13-12-2023 10:27:57,13-12-2023 10:28:05,7.793s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,13-12-2023 10:27:57,13-12-2023 10:27:59,1.525s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 119.0.0.0,,,13-12-2023 10:27:59,13-12-2023 10:28:04,4.755s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ID)",Chrome 119.0.0.0,,,13-12-2023 10:28:04,13-12-2023 10:28:05,0.845s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), Pass)",Chrome 119.0.0.0,,,13-12-2023 10:28:05,13-12-2023 10:28:05,0.630s,FAILED

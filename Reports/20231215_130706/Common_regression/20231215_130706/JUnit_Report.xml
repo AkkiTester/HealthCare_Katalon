@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Common_regression" time="166.502" tests="7" failures="0" errors="0">
+   <testsuite name="Common_regression" tests="7" failures="0" errors="0" time="166.502" skipped="0" timestamp="15-12-2023T13:07:16" hostname="ADMIN - DESKTOP-28CK1DU.mshome.net" id="Test Suites/Common_regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231215_130706\\Common_regression\\20231215_130706"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231215_130706\\Common_regression\\20231215_130706\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADMIN - DESKTOP-28CK1DU.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="172.29.16.1"/>
+         <property name="sessionId" value="3b79a31b23ec5b2e063b96d65783dda5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common Test/Login - Valid - Pass" time="18.952" classname="Test Cases/Common Test/Login - Valid - Pass" status="PASSED">
+         <system-out><![CDATA[15-12-2023T13:07:16 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Valid - Pass: Test Cases/Common Test/Login - Valid - Pass
+
+15-12-2023T13:07:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2023T13:07:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2023T13:07:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2023T13:07:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2023T13:07:20 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:07:25 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_email"), ID): Text 'admin@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:07:28 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:07:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_password"), Pass): Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:07:29 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:07:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:07:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/span_Admin")): Object: 'Object Repository/Page_Demo Hospital/span_Admin' is clicked on
+
+15-12-2023T13:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/span_Admin' is clicked on
+
+15-12-2023T13:07:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Hospital/p_Admin"), Name): Actual text and expected text of test object 'Object Repository/Page_Demo Hospital/p_Admin' are matched.
+
+15-12-2023T13:07:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Hospital/p_Admin' are matched.
+
+15-12-2023T13:07:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2023T13:07:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test/Login - Invalid -Id" time="10.534" classname="Test Cases/Common Test/Login - Invalid -Id" status="PASSED">
+         <system-out><![CDATA[15-12-2023T13:07:35 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Invalid -Id: Test Cases/Common Test/Login - Invalid -Id
+
+15-12-2023T13:07:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2023T13:07:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2023T13:07:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2023T13:07:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2023T13:07:37 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:07:42 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:07:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_email"), "Akash@gmail.com"): Text 'Akash@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:07:43 - [MESSAGE][PASSED] - Text 'Akash@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:07:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:07:44 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:07:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Demo Hospital/h3_Sign in"), 0): Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+15-12-2023T13:07:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-12-2023T13:07:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+15-12-2023T13:07:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2023T13:07:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test/Login - Invalid -Pass" time="10.047" classname="Test Cases/Common Test/Login - Invalid -Pass" status="PASSED">
+         <system-out><![CDATA[15-12-2023T13:07:46 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Invalid -Pass: Test Cases/Common Test/Login - Invalid -Pass
+
+15-12-2023T13:07:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2023T13:07:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2023T13:07:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2023T13:07:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2023T13:07:47 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:07:52 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:07:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_email"), ID): Text 'admin@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:07:53 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:07:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_password"), "1234"): Text '1234' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:07:54 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:07:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Demo Hospital/h3_Sign in"), 0): Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+15-12-2023T13:07:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-12-2023T13:07:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+15-12-2023T13:07:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2023T13:07:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test/Login - Invalid -Id - Blank" time="10.201" classname="Test Cases/Common Test/Login - Invalid -Id - Blank" status="PASSED">
+         <system-out><![CDATA[15-12-2023T13:07:56 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Invalid -Id - Blank: Test Cases/Common Test/Login - Invalid -Id - Blank
+
+15-12-2023T13:07:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2023T13:07:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2023T13:07:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2023T13:07:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2023T13:07:58 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:08:03 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:08:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_email"), ""): Text '' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:08:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:08:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:08:04 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:08:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:08:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Demo Hospital/h3_Sign in"), 0): Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+15-12-2023T13:08:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-12-2023T13:08:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+15-12-2023T13:08:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2023T13:08:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test/Login - Invalid -Pass - Blank" time="10.342" classname="Test Cases/Common Test/Login - Invalid -Pass - Blank" status="PASSED">
+         <system-out><![CDATA[15-12-2023T13:08:06 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Invalid -Pass - Blank: Test Cases/Common Test/Login - Invalid -Pass - Blank
+
+15-12-2023T13:08:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2023T13:08:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2023T13:08:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2023T13:08:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2023T13:08:08 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:08:12 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:08:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_email"), ID): Text 'admin@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:08:13 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:08:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_password"), ""): Text '' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:08:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:08:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Demo Hospital/h3_Sign in"), 0): Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+15-12-2023T13:08:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-12-2023T13:08:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+15-12-2023T13:08:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2023T13:08:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test/Login - Invalid -IdPass- Blank" time="10.424" classname="Test Cases/Common Test/Login - Invalid -IdPass- Blank" status="PASSED">
+         <system-out><![CDATA[15-12-2023T13:08:17 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Invalid -IdPass- Blank: Test Cases/Common Test/Login - Invalid -IdPass- Blank
+
+15-12-2023T13:08:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2023T13:08:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2023T13:08:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2023T13:08:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2023T13:08:18 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:08:23 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:08:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_email"), ""): Text '' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:08:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:08:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_password"), ""): Text '' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:08:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:08:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Demo Hospital/h3_Sign in"), 0): Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+15-12-2023T13:08:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-12-2023T13:08:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+15-12-2023T13:08:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2023T13:08:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Patient Management/Add_Patient" time="95.434" classname="Test Cases/Patient Management/Add_Patient" status="PASSED">
+         <system-out><![CDATA[15-12-2023T13:08:27 - [TEST_CASE][PASSED] - Test Cases/Patient Management/Add_Patient: Test Cases/Patient Management/Add_Patient
+
+15-12-2023T13:08:27 - [TEST_STEP][PASSED] - loginPage.Login.performLogin(ID, Pass): loginPage.Login.performLogin is PASSED
+
+15-12-2023T13:08:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2023T13:08:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2023T13:08:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2023T13:08:33 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+15-12-2023T13:08:34 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+15-12-2023T13:08:35 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+15-12-2023T13:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+15-12-2023T13:08:40 - [MESSAGE][PASSED] - loginPage.Login.performLogin is PASSED
+
+15-12-2023T13:08:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/i_fa fa-user")): Object: 'Object Repository/Page_Demo Hospital/i_fa fa-user' is clicked on
+
+15-12-2023T13:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/i_fa fa-user' is clicked on
+
+15-12-2023T13:08:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/a_Add Patient")): Object: 'Object Repository/Page_Demo Hospital/a_Add Patient' is clicked on
+
+15-12-2023T13:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/a_Add Patient' is clicked on
+
+15-12-2023T13:08:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_full_name"), "Test12"): Text 'Test12' is set on object 'Object Repository/Page_Demo Hospital/input_full_name'
+
+15-12-2023T13:08:45 - [MESSAGE][PASSED] - Text 'Test12' is set on object 'Object Repository/Page_Demo Hospital/input_full_name'
+
+15-12-2023T13:08:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_user_name"), "TestUser"): Text 'TestUser' is set on object 'Object Repository/Page_Demo Hospital/input_user_name'
+
+15-12-2023T13:08:46 - [MESSAGE][PASSED] - Text 'TestUser' is set on object 'Object Repository/Page_Demo Hospital/input_user_name'
+
+15-12-2023T13:08:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_mobile_no"), "1111111111"): Text '1111111111' is set on object 'Object Repository/Page_Demo Hospital/input_mobile_no'
+
+15-12-2023T13:08:47 - [MESSAGE][PASSED] - Text '1111111111' is set on object 'Object Repository/Page_Demo Hospital/input_mobile_no'
+
+15-12-2023T13:08:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther'  using regular expression
+
+15-12-2023T13:08:48 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther'  using regular expression
+
+15-12-2023T13:08:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther'  using regular expression
+
+15-12-2023T13:08:49 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther'  using regular expression
+
+15-12-2023T13:08:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/input_dob")): Object: 'Object Repository/Page_Demo Hospital/input_dob' is clicked on
+
+15-12-2023T13:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_dob' is clicked on
+
+15-12-2023T13:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/td_1")): Object: 'Object Repository/Page_Demo Hospital/td_1' is clicked on
+
+15-12-2023T13:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/td_1' is clicked on
+
+15-12-2023T13:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/button_Next")): Object: 'Object Repository/Page_Demo Hospital/button_Next' is clicked on
+
+15-12-2023T13:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/button_Next' is clicked on
+
+15-12-2023T13:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e")): Object: 'Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e' is clicked on
+
+15-12-2023T13:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e' is clicked on
+
+15-12-2023T13:08:52 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e"), "1", STOP_ON_FAILURE): All options with index in [1] are selected on object 'Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e'
+
+15-12-2023T13:08:53 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e'
+
+15-12-2023T13:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/button_Next")): Object: 'Object Repository/Page_Demo Hospital/button_Next' is clicked on
+
+15-12-2023T13:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/button_Next' is clicked on
+
+15-12-2023T13:08:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_email_1"), "testuser@gmail.com"): Text 'testuser@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email_1'
+
+15-12-2023T13:08:54 - [MESSAGE][PASSED] - Text 'testuser@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email_1'
+
+15-12-2023T13:08:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_password_1"), "Test@123"): Text 'Test@123' is set on object 'Object Repository/Page_Demo Hospital/input_password_1'
+
+15-12-2023T13:08:56 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Page_Demo Hospital/input_password_1'
+
+15-12-2023T13:08:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_confirm_password"), "Test@123"): Text 'Test@123' is set on object 'Object Repository/Page_Demo Hospital/input_confirm_password'
+
+15-12-2023T13:08:57 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Page_Demo Hospital/input_confirm_password'
+
+15-12-2023T13:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/button_Finish")): Object: 'Object Repository/Page_Demo Hospital/button_Finish' is clicked on
+
+15-12-2023T13:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/button_Finish' is clicked on
+
+15-12-2023T13:08:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_custom-btn"), "Test12"): Text 'Test12' is set on object 'Object Repository/Page_Demo Hospital/input_custom-btn'
+
+15-12-2023T13:09:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: input.custom-btn'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-12-2023T13:09:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Demo Hospital/input_custom-btn'. Try using Self-healing.
+
+15-12-2023T13:09:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Demo Hospital/input_custom-btn' was broken. Propose an alternative one: '//input'.
+
+15-12-2023T13:10:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: input.custom-btn'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-12-2023T13:10:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Demo Hospital/input_custom-btn'. Try using Self-healing.
+
+15-12-2023T13:10:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Demo Hospital/input_custom-btn' was broken. Propose an alternative one: '//input'.
+
+15-12-2023T13:10:00 - [MESSAGE][PASSED] - Text 'Test12' is set on object 'Object Repository/Page_Demo Hospital/input_custom-btn'
+
+15-12-2023T13:10:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Hospital/td_Test12"), "Test12"): Actual text and expected text of test object 'Object Repository/Page_Demo Hospital/td_Test12' are matched.
+
+15-12-2023T13:10:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Hospital/td_Test12' are matched.
+
+15-12-2023T13:10:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2023T13:10:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-12-2023T13:07:16 - [TEST_SUITE][PASSED] - Common_regression: Test Cases/Patient Management/Add_Patient]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

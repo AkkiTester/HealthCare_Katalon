@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Common_regression,Firefox 120.0,,,14-12-2023 23:46:51,14-12-2023 23:52:17,5m - 26.090s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Valid - Pass,Firefox 120.0,,,14-12-2023 23:46:52,14-12-2023 23:47:46,54.098s,FAILED
+"openBrowser("""")",Firefox 120.0,,,14-12-2023 23:46:53,14-12-2023 23:47:07,13.689s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Firefox 120.0,,,14-12-2023 23:47:07,14-12-2023 23:47:11,4.000s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ID)",Firefox 120.0,,,14-12-2023 23:47:11,14-12-2023 23:47:13,1.753s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), Pass)",Firefox 120.0,,,14-12-2023 23:47:13,14-12-2023 23:47:13,0.734s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_Search_form-control input-sm""))",Firefox 120.0,,,14-12-2023 23:47:13,14-12-2023 23:47:46,32.652s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Id,Firefox 120.0,,,14-12-2023 23:47:46,14-12-2023 23:48:31,45.195s,FAILED
+"openBrowser("""")",Firefox 120.0,,,14-12-2023 23:47:46,14-12-2023 23:47:54,7.886s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Firefox 120.0,,,14-12-2023 23:47:54,14-12-2023 23:47:58,3.841s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ""Akash@gmail.com"")",Firefox 120.0,,,14-12-2023 23:47:58,14-12-2023 23:47:59,0.673s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), ""123456"")",Firefox 120.0,,,14-12-2023 23:47:59,14-12-2023 23:47:59,0.705s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_Search_form-control input-sm""))",Firefox 120.0,,,14-12-2023 23:47:59,14-12-2023 23:48:31,31.855s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Pass,Firefox 120.0,,,14-12-2023 23:48:31,14-12-2023 23:49:17,45.562s,FAILED
+"openBrowser("""")",Firefox 120.0,,,14-12-2023 23:48:31,14-12-2023 23:48:40,8.527s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Firefox 120.0,,,14-12-2023 23:48:40,14-12-2023 23:48:44,3.600s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ID)",Firefox 120.0,,,14-12-2023 23:48:44,14-12-2023 23:48:44,0.698s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), ""1234"")",Firefox 120.0,,,14-12-2023 23:48:44,14-12-2023 23:48:45,0.652s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_Search_form-control input-sm""))",Firefox 120.0,,,14-12-2023 23:48:45,14-12-2023 23:49:17,31.850s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Id - Blank,Firefox 120.0,,,14-12-2023 23:49:17,14-12-2023 23:50:02,45.514s,FAILED
+"openBrowser("""")",Firefox 120.0,,,14-12-2023 23:49:17,14-12-2023 23:49:25,7.464s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Firefox 120.0,,,14-12-2023 23:49:25,14-12-2023 23:49:29,4.513s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), """")",Firefox 120.0,,,14-12-2023 23:49:29,14-12-2023 23:49:30,0.706s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), ""123456"")",Firefox 120.0,,,14-12-2023 23:49:30,14-12-2023 23:49:30,0.699s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_Search_form-control input-sm""))",Firefox 120.0,,,14-12-2023 23:49:30,14-12-2023 23:50:02,31.872s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Pass - Blank,Firefox 120.0,,,14-12-2023 23:50:02,14-12-2023 23:50:47,44.925s,FAILED
+"openBrowser("""")",Firefox 120.0,,,14-12-2023 23:50:03,14-12-2023 23:50:11,8.118s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Firefox 120.0,,,14-12-2023 23:50:11,14-12-2023 23:50:14,3.390s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ID)",Firefox 120.0,,,14-12-2023 23:50:14,14-12-2023 23:50:15,0.731s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), """")",Firefox 120.0,,,14-12-2023 23:50:15,14-12-2023 23:50:15,0.646s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_Search_form-control input-sm""))",Firefox 120.0,,,14-12-2023 23:50:15,14-12-2023 23:50:47,31.856s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -IdPass- Blank,Firefox 120.0,,,14-12-2023 23:50:47,14-12-2023 23:51:33,45.530s,FAILED
+"openBrowser("""")",Firefox 120.0,,,14-12-2023 23:50:48,14-12-2023 23:50:56,8.439s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Firefox 120.0,,,14-12-2023 23:50:56,14-12-2023 23:51:00,3.811s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), """")",Firefox 120.0,,,14-12-2023 23:51:00,14-12-2023 23:51:00,0.680s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), """")",Firefox 120.0,,,14-12-2023 23:51:00,14-12-2023 23:51:01,0.616s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_Search_form-control input-sm""))",Firefox 120.0,,,14-12-2023 23:51:01,14-12-2023 23:51:33,31.759s,FAILED
+,,,,,,,
+Test Cases/Patient Management/Add_Patient,Firefox 120.0,,,14-12-2023 23:51:33,14-12-2023 23:52:17,44.248s,FAILED
+"openBrowser("""")",Firefox 120.0,,,14-12-2023 23:51:33,14-12-2023 23:51:41,8.258s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Firefox 120.0,,,14-12-2023 23:51:41,14-12-2023 23:51:45,4.020s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_Search_form-control input-sm""), ""admin@gmail.com"")",Firefox 120.0,,,14-12-2023 23:51:45,14-12-2023 23:52:17,31.830s,FAILED

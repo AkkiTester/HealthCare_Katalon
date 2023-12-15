@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/Common Test/Login - Valid - Pass","testCaseId":"Test Cases/Common Test/Login - Valid - Pass","iterationVariableName":""}
+{"testCaseName":"Test Cases/Common Test/Login - Invalid -Id","testCaseId":"Test Cases/Common Test/Login - Invalid -Id","iterationVariableName":""}
+{"testCaseName":"Test Cases/Common Test/Login - Invalid -Pass","testCaseId":"Test Cases/Common Test/Login - Invalid -Pass","iterationVariableName":""}
+{"testCaseName":"Test Cases/Common Test/Login - Invalid -Id - Blank","testCaseId":"Test Cases/Common Test/Login - Invalid -Id - Blank","iterationVariableName":""}
+{"testCaseName":"Test Cases/Common Test/Login - Invalid -Pass - Blank","testCaseId":"Test Cases/Common Test/Login - Invalid -Pass - Blank","iterationVariableName":""}
+{"testCaseName":"Test Cases/Common Test/Login - Invalid -IdPass- Blank","testCaseId":"Test Cases/Common Test/Login - Invalid -IdPass- Blank","iterationVariableName":""}
+{"testCaseName":"Test Cases/Patient Management/Add_Patient","testCaseId":"Test Cases/Patient Management/Add_Patient","iterationVariableName":""}

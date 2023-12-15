@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Common_regression,Chrome 120.0.0.0,,,14-12-2023 22:08:29,14-12-2023 22:09:01,32.354s,PASSED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Pass,Chrome 120.0.0.0,,,14-12-2023 22:08:29,14-12-2023 22:08:42,12.661s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,14-12-2023 22:08:30,14-12-2023 22:08:33,3.190s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,14-12-2023 22:08:33,14-12-2023 22:08:37,4.498s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ID)",Chrome 120.0.0.0,,,14-12-2023 22:08:37,14-12-2023 22:08:39,1.463s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), ""1234"")",Chrome 120.0.0.0,,,14-12-2023 22:08:39,14-12-2023 22:08:40,0.990s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,14-12-2023 22:08:40,14-12-2023 22:08:41,1.545s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Hospital/h3_Sign in""), 0)",Chrome 120.0.0.0,,,14-12-2023 22:08:41,14-12-2023 22:08:42,0.463s,PASSED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Pass,Chrome 120.0.0.0,,,14-12-2023 22:08:42,14-12-2023 22:08:52,9.824s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,14-12-2023 22:08:42,14-12-2023 22:08:44,1.594s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,14-12-2023 22:08:44,14-12-2023 22:08:48,4.515s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ID)",Chrome 120.0.0.0,,,14-12-2023 22:08:48,14-12-2023 22:08:49,0.901s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), ""1234"")",Chrome 120.0.0.0,,,14-12-2023 22:08:49,14-12-2023 22:08:50,0.801s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,14-12-2023 22:08:50,14-12-2023 22:08:51,1.542s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Hospital/h3_Sign in""), 0)",Chrome 120.0.0.0,,,14-12-2023 22:08:51,14-12-2023 22:08:52,0.420s,PASSED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Id,Chrome 120.0.0.0,,,14-12-2023 22:08:52,14-12-2023 22:09:01,9.399s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,14-12-2023 22:08:52,14-12-2023 22:08:54,1.610s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,14-12-2023 22:08:54,14-12-2023 22:08:56,2.567s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email""), ""Akash@gmail.com"")",Chrome 120.0.0.0,,,14-12-2023 22:08:56,14-12-2023 22:08:58,2.310s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password""), ""123456"")",Chrome 120.0.0.0,,,14-12-2023 22:08:58,14-12-2023 22:08:59,0.780s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,14-12-2023 22:08:59,14-12-2023 22:09:01,1.456s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Hospital/h3_Sign in""), 0)",Chrome 120.0.0.0,,,14-12-2023 22:09:01,14-12-2023 22:09:01,0.494s,PASSED

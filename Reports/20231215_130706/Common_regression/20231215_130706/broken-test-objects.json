@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Demo Hospital/input_custom-btn",
+      "brokenLocator": "input.custom-btn",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231215_130706"
+    }
+  ]
+}

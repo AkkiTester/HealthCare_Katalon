@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Demo Hospital/input_custom-btn",
+      "brokenLocator": "//input[@value\u003d\u0027Sign In\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type\u003d\u0027search\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Demo Hospital/input_custom-btn_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Demo Hospital/i_fa fa-user",
+      "brokenLocator": "//a[@id\u003d\u0027reference_2\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027navbar-collapse\u0027]/ul/li[3]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Demo Hospital/i_fa fa-user_idRelative.png"
+    }
+  ]
+}

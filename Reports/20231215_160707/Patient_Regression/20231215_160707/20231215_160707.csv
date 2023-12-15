@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Patient_Regression,,,,15-12-2023 16:07:18,15-12-2023 16:07:52,34.002s,FAILED
+,,,,,,,
+Test Cases/Patient Management/Add_Patient,,,,15-12-2023 16:07:30,15-12-2023 16:07:32,2.415s,FAILED
+"loginPage.Login.performLogin(ID, Pass)",,,,15-12-2023 16:07:30,15-12-2023 16:07:32,2.340s,FAILED
+,,,,,,,
+Test Cases/Patient Management/Edit_Patient_Info,,,,15-12-2023 16:07:40,15-12-2023 16:07:42,2.366s,FAILED
+"loginPage.Login.performLogin(ID, Pass)",,,,15-12-2023 16:07:40,15-12-2023 16:07:42,2.332s,FAILED
+,,,,,,,
+Test Cases/Patient Management/Search_Patient,,,,15-12-2023 16:07:50,15-12-2023 16:07:52,2.238s,FAILED
+"loginPage.Login.performLogin(ID, Pass)",,,,15-12-2023 16:07:50,15-12-2023 16:07:52,2.207s,FAILED
