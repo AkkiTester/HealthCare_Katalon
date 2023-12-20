@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Akash D. Dilwale</name>
+   <tag></tag>
+   <elementGuidId>481a9d70-9aad-4dd5-9276-00f2761e1ecb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='hero']/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.text-white</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>58fd120c-5980-4787-b45b-d009378daf0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-white</value>
+      <webElementGuid>c2bf80dc-5c56-4c00-93ae-4f6e6482f739</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Akash D. Dilwale</value>
+      <webElementGuid>6b1c7e1f-dfd6-4441-9cdb-085ad148712a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hero&quot;)/div[@class=&quot;container aos-init aos-animate&quot;]/h1[@class=&quot;text-white&quot;]</value>
+      <webElementGuid>490fd885-b19c-4ad3-a1f7-dfebfa84ccb7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='hero']/div/h1</value>
+      <webElementGuid>98aae95f-2f62-4754-b8fe-5fe863314b9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>e9bcac8d-a87c-4165-acfb-0c4a43d1eec0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Akash D. Dilwale' or . = 'Akash D. Dilwale')]</value>
+      <webElementGuid>c6fa51da-2aee-4060-bdec-a9a0cf00560c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

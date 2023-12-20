@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuteKatalon" time="16.01" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuteKatalon" tests="1" failures="0" errors="0" time="16.01" skipped="0" timestamp="19-12-2023T22:25:34" hostname="ADMIN - DESKTOP-28CK1DU.mshome.net" id="Test Suites/TestSuteKatalon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231219_222517\\TestSuteKatalon\\20231219_222517"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231219_222517\\TestSuteKatalon\\20231219_222517\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADMIN - DESKTOP-28CK1DU.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="172.25.192.1"/>
+         <property name="sessionId" value="b80e1ca1aacb9da316e54819fd66d3a3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/demoCase/Test1" time="14.902" classname="Test Cases/demoCase/Test1" status="PASSED">
+         <system-out><![CDATA[19-12-2023T22:25:35 - [TEST_CASE][PASSED] - Test Cases/demoCase/Test1: Test Cases/demoCase/Test1
+
+19-12-2023T22:25:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-12-2023T22:25:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-12-2023T22:25:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-12-2023T22:25:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-12-2023T22:25:41 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+19-12-2023T22:25:48 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+19-12-2023T22:25:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Hospital/h2_Demo  Hospital"), "Demo Hospital"): Actual text and expected text of test object 'Object Repository/Page_Demo Hospital/h2_Demo  Hospital' are matched.
+
+19-12-2023T22:25:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Hospital/h2_Demo  Hospital' are matched.
+
+19-12-2023T22:25:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-12-2023T22:25:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-12-2023T22:25:34 - [TEST_SUITE][PASSED] - TestSuteKatalon: Test Cases/demoCase/Test1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

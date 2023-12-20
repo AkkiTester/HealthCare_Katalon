@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Common_regression,,,,18-12-2023 15:07:46,18-12-2023 15:08:30,43.575s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Valid - Pass,,,,18-12-2023 15:07:47,18-12-2023 15:07:54,7.051s,FAILED
+"openBrowser("""")",,,,18-12-2023 15:07:48,18-12-2023 15:07:54,6.222s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Id,,,,18-12-2023 15:07:54,18-12-2023 15:07:57,3.129s,FAILED
+"openBrowser("""")",,,,18-12-2023 15:07:54,18-12-2023 15:07:57,2.799s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Pass,,,,18-12-2023 15:07:57,18-12-2023 15:08:01,4.284s,FAILED
+"openBrowser("""")",,,,18-12-2023 15:07:57,18-12-2023 15:08:01,4.050s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Id - Blank,,,,18-12-2023 15:08:01,18-12-2023 15:08:05,3.233s,FAILED
+"openBrowser("""")",,,,18-12-2023 15:08:02,18-12-2023 15:08:05,2.961s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -Pass - Blank,,,,18-12-2023 15:08:05,18-12-2023 15:08:08,3.170s,FAILED
+"openBrowser("""")",,,,18-12-2023 15:08:05,18-12-2023 15:08:08,2.971s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Invalid -IdPass- Blank,,,,18-12-2023 15:08:08,18-12-2023 15:08:13,5.017s,FAILED
+"openBrowser("""")",,,,18-12-2023 15:08:08,18-12-2023 15:08:13,4.804s,FAILED
+,,,,,,,
+Test Cases/Patient Management/Add_Patient,,,,18-12-2023 15:08:13,18-12-2023 15:08:19,5.814s,FAILED
+"loginPage.Login.performLogin(ID, Pass)",,,,18-12-2023 15:08:13,18-12-2023 15:08:19,5.440s,FAILED
+,,,,,,,
+Test Cases/Patient Management/Search_Patient,,,,18-12-2023 15:08:19,18-12-2023 15:08:30,11.301s,FAILED
+"loginPage.Login.performLogin(ID, Pass)",,,,18-12-2023 15:08:19,18-12-2023 15:08:30,11.132s,FAILED

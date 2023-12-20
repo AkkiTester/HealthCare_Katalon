@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Patient_Regression,Chrome 120.0.0.0,,,18-12-2023 15:35:05,18-12-2023 15:38:26,3m - 21.042s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Add_Patient,Chrome 120.0.0.0,,,18-12-2023 15:35:06,18-12-2023 15:36:25,1m - 18.277s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Chrome 120.0.0.0,,,18-12-2023 15:35:08,18-12-2023 15:35:28,20.023s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-user""))",Chrome 120.0.0.0,,,18-12-2023 15:35:28,18-12-2023 15:36:01,33.400s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/a_Add Patient""))",Chrome 120.0.0.0,,,18-12-2023 15:36:01,18-12-2023 15:36:04,2.559s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_full_name""), ""Test12"")",Chrome 120.0.0.0,,,18-12-2023 15:36:04,18-12-2023 15:36:05,1.239s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_user_name""), ""TestUser"")",Chrome 120.0.0.0,,,18-12-2023 15:36:05,18-12-2023 15:36:07,1.614s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_mobile_no""), ""1111111111"")",Chrome 120.0.0.0,,,18-12-2023 15:36:07,18-12-2023 15:36:08,1.032s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther""), ""1"", true)",Chrome 120.0.0.0,,,18-12-2023 15:36:08,18-12-2023 15:36:09,1.296s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther""), ""1"", true)",Chrome 120.0.0.0,,,18-12-2023 15:36:09,18-12-2023 15:36:10,1.228s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_dob""))",Chrome 120.0.0.0,,,18-12-2023 15:36:10,18-12-2023 15:36:11,0.501s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/td_1""))",Chrome 120.0.0.0,,,18-12-2023 15:36:11,18-12-2023 15:36:11,0.511s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Next""))",Chrome 120.0.0.0,,,18-12-2023 15:36:11,18-12-2023 15:36:12,0.527s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e""))",Chrome 120.0.0.0,,,18-12-2023 15:36:12,18-12-2023 15:36:12,0.585s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e""), ""1"", STOP_ON_FAILURE)",Chrome 120.0.0.0,,,18-12-2023 15:36:12,18-12-2023 15:36:14,1.215s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Next""))",Chrome 120.0.0.0,,,18-12-2023 15:36:14,18-12-2023 15:36:14,0.557s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email_1""), ""testuser@gmail.com"")",Chrome 120.0.0.0,,,18-12-2023 15:36:14,18-12-2023 15:36:15,1.050s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password_1""), ""Test@123"")",Chrome 120.0.0.0,,,18-12-2023 15:36:15,18-12-2023 15:36:17,1.526s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_confirm_password""), ""Test@123"")",Chrome 120.0.0.0,,,18-12-2023 15:36:17,18-12-2023 15:36:18,0.916s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Finish""))",Chrome 120.0.0.0,,,18-12-2023 15:36:18,18-12-2023 15:36:18,0.524s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_form-control input-sm""), ""Test12"")",Chrome 120.0.0.0,,,18-12-2023 15:36:18,18-12-2023 15:36:22,4.008s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/td_Test12""), ""Test12"")",Chrome 120.0.0.0,,,18-12-2023 15:36:22,18-12-2023 15:36:24,1.859s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,18-12-2023 15:36:24,18-12-2023 15:36:25,0.561s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Edit_Patient_Info,Chrome 120.0.0.0,,,18-12-2023 15:36:25,18-12-2023 15:37:31,1m - 6.268s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Chrome 120.0.0.0,,,18-12-2023 15:36:25,18-12-2023 15:36:45,19.619s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-user""))",Chrome 120.0.0.0,,,18-12-2023 15:36:45,18-12-2023 15:37:18,33.180s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_form-control input-sm""), ""xyz"")",Chrome 120.0.0.0,,,18-12-2023 15:37:18,18-12-2023 15:37:20,2.337s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-edit""))",Chrome 120.0.0.0,,,18-12-2023 15:37:20,18-12-2023 15:37:23,2.760s,PASSED
+"navigateToUrl(""https://hospitalb.com/outdoor/edit-patient/2#step-1"")",Chrome 120.0.0.0,,,18-12-2023 15:37:23,18-12-2023 15:37:23,0.038s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_mobile_no""), ""1234567890"")",Chrome 120.0.0.0,,,18-12-2023 15:37:23,18-12-2023 15:37:24,1.224s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Finish""))",Chrome 120.0.0.0,,,18-12-2023 15:37:24,18-12-2023 15:37:26,1.914s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_form-control input-sm""), ""xyz"")",Chrome 120.0.0.0,,,18-12-2023 15:37:26,18-12-2023 15:37:27,1.377s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Demo Hospital/td_1234567890""))",Chrome 120.0.0.0,,,18-12-2023 15:37:27,18-12-2023 15:37:30,2.316s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/td_1234567890""), ""1234567890"")",Chrome 120.0.0.0,,,18-12-2023 15:37:30,18-12-2023 15:37:30,0.482s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,18-12-2023 15:37:30,18-12-2023 15:37:31,0.585s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Search_Patient,Chrome 120.0.0.0,,,18-12-2023 15:37:31,18-12-2023 15:38:26,55.175s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Chrome 120.0.0.0,,,18-12-2023 15:37:31,18-12-2023 15:37:47,15.416s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-user""))",Chrome 120.0.0.0,,,18-12-2023 15:37:47,18-12-2023 15:38:19,32.643s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_form-control input-sm""), ""Test12"")",Chrome 120.0.0.0,,,18-12-2023 15:38:19,18-12-2023 15:38:24,4.824s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/td_Test12""), ""Test12"")",Chrome 120.0.0.0,,,18-12-2023 15:38:24,18-12-2023 15:38:26,1.456s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,18-12-2023 15:38:26,18-12-2023 15:38:26,0.457s,PASSED

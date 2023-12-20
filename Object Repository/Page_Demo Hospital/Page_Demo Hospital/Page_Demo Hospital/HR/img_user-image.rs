@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_user-image</name>
+   <tag></tag>
+   <elementGuidId>161754c1-0cf6-430b-b41e-6c917d0d1861</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.user-image</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='User Image']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>fc636e80-55d0-4ac0-be48-87339ce4bab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://hospitalb.com/img/user.png</value>
+      <webElementGuid>dfb12720-6bef-4eef-ae7b-825d8ccb92c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>user-image</value>
+      <webElementGuid>144ad722-903b-43f1-9a66-e66fb991f8ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>User Image</value>
+      <webElementGuid>2104aacb-dd6b-4384-8eba-a8b10089fee6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-blue-light layout-top-nav  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/header[@class=&quot;main-header&quot;]/nav[@class=&quot;navbar navbar-static-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;navbar-custom-menu&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;dropdown user user-menu&quot;]/a[@class=&quot;dropdown-toggle&quot;]/img[@class=&quot;user-image&quot;]</value>
+      <webElementGuid>5884952a-4a37-4c76-9888-8fab3108b2a3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='User Image']</value>
+      <webElementGuid>c6bd742e-48c9-4f92-96bf-d96bd296188e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>59725c69-f0b4-431b-b051-5f1cbc786c85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://hospitalb.com/img/user.png' and @alt = 'User Image']</value>
+      <webElementGuid>1678ba59-406f-4695-92ce-4b0f2b9c264e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin,Chrome 120.0.0.0,,,19-12-2023 21:05:22,19-12-2023 21:06:02,39.309s,PASSED
+,,,,,,,
+Test Cases/Admin/Admin_Fun_Hr,Chrome 120.0.0.0,,,19-12-2023 21:05:23,19-12-2023 21:06:02,38.338s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Chrome 120.0.0.0,,,19-12-2023 21:05:25,19-12-2023 21:05:50,25.067s,PASSED
+"rightClick(findTestObject(""Object Repository/Admin/Page_Demo Hospital/a_HR""))",Chrome 120.0.0.0,,,19-12-2023 21:05:50,19-12-2023 21:05:51,0.970s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Admin/Page_Demo Hospital/a_HR""))",Chrome 120.0.0.0,,,19-12-2023 21:05:51,19-12-2023 21:05:52,0.737s,PASSED
+"click(findTestObject(""Object Repository/Admin/Page_Demo Hospital/a_HR""))",Chrome 120.0.0.0,,,19-12-2023 21:05:52,19-12-2023 21:05:53,0.532s,PASSED
+"click(findTestObject(""Object Repository/Admin/Page_Demo Hospital/a_Staff""))",Chrome 120.0.0.0,,,19-12-2023 21:05:53,19-12-2023 21:05:55,2.233s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Admin/Page_Demo Hospital/h1_Staff List""), ""Staff List"")",Chrome 120.0.0.0,,,19-12-2023 21:05:55,19-12-2023 21:05:56,1.330s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-12-2023 21:05:56,19-12-2023 21:06:02,5.387s,PASSED

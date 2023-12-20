@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke_Dynamic Test Suite,,,,18-12-2023 16:03:15,18-12-2023 16:03:25,10.412s,FAILED
+,,,,,,,
+Test Cases/Common Test/Login - Valid - Pass,,,Smoke,18-12-2023 16:03:15,18-12-2023 16:03:21,6.142s,FAILED
+"openBrowser("""")",,,,18-12-2023 16:03:16,18-12-2023 16:03:21,5.375s,FAILED
+,,,,,,,
+Test Cases/Patient Management/Add_Patient,,,Smoke,18-12-2023 16:03:21,18-12-2023 16:03:25,3.766s,FAILED
+"loginPage.Login.performLogin(ID, Pass)",,,,18-12-2023 16:03:22,18-12-2023 16:03:25,3.056s,FAILED

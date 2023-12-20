@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuteKatalon,Chrome 120.0.0.0,,,19-12-2023 22:25:34,19-12-2023 22:25:50,16.010s,PASSED
+,,,,,,,
+Test Cases/demoCase/Test1,Chrome 120.0.0.0,,,19-12-2023 22:25:35,19-12-2023 22:25:50,14.902s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,19-12-2023 22:25:36,19-12-2023 22:25:41,5.147s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,19-12-2023 22:25:41,19-12-2023 22:25:48,7.398s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/h2_Demo  Hospital""), ""Demo Hospital"")",Chrome 120.0.0.0,,,19-12-2023 22:25:48,19-12-2023 22:25:50,1.310s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,19-12-2023 22:25:50,19-12-2023 22:25:50,0.248s,PASSED

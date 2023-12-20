@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Demo Hospital/i_fa fa-user",
+      "brokenLocator": "//a[@id\u003d\u0027reference_2\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027navbar-collapse\u0027]/ul/li[3]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231218_145325/Patient_Regression/20231218_145327/Object Repository/Page_Demo Hospital/i_fa fa-user_idRelative.png"
+    }
+  ]
+}

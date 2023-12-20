@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Common_regression" time="201.971" tests="8" failures="3" errors="0">
+   <testsuite name="Common_regression" tests="8" failures="3" errors="0" time="201.971" skipped="0" timestamp="18-12-2023T15:35:12" hostname="ADMIN - DESKTOP-28CK1DU.mshome.net" id="Test Suites/Common_regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231218_153447\\Common_regression\\20231218_153451"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231218_153447\\Common_regression\\20231218_153451\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231218_153447\\Common_regression\\20231218_153451\\1702893933972.png, C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231218_153447\\Common_regression\\20231218_153451\\1702893934350.png, C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231218_153447\\Common_regression\\20231218_153451\\1702894062267.png, C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231218_153447\\Common_regression\\20231218_153451\\1702894114276.png"/>
+         <property name="hostName" value="ADMIN - DESKTOP-28CK1DU.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="172.25.192.1"/>
+         <property name="sessionId" value="3966d7249f9d96d3e66deca342a1992d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common Test/Login - Valid - Pass" time="21.625" classname="Test Cases/Common Test/Login - Valid - Pass" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Common Test/Login - Valid - Pass FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Demo Hospital/p_Admin' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at Login - Valid - Pass.run(Login - Valid - Pass:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'hr' and expected text 'Hr' of test object 'Object Repository/Page_Demo Hospital/p_Admin' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[18-12-2023T15:35:13 - [TEST_CASE][FAILED] - Test Cases/Common Test/Login - Valid - Pass: Test Cases/Common Test/Login - Valid - Pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Demo Hospital/p_Admin' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login - Valid - Pass.run(Login - Valid - Pass:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'hr' and expected text 'Hr' of test object 'Object Repository/Page_Demo Hospital/p_Admin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+18-12-2023T15:35:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-12-2023T15:35:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T15:35:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T15:35:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T15:35:18 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:35:24 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:35:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_email"), ID): Text 'hr@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:35:25 - [MESSAGE][PASSED] - Text 'hr@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:35:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_password"), Pass): Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:35:26 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/span_Admin")): Object: 'Object Repository/Page_Demo Hospital/span_Admin' is clicked on
+
+18-12-2023T15:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/span_Admin' is clicked on
+
+18-12-2023T15:35:33 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_Demo Hospital/p_Admin"), Name): Verify element text of test object 'Object Repository/Page_Demo Hospital/p_Admin' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Demo Hospital/p_Admin' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login - Valid - Pass.run(Login - Valid - Pass:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'hr' and expected text 'Hr' of test object 'Object Repository/Page_Demo Hospital/p_Admin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+18-12-2023T15:35:34 - [MESSAGE][FAILED] - Actual text 'hr' and expected text 'Hr' of test object 'Object Repository/Page_Demo Hospital/p_Admin' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'hr' and expected text 'Hr' of test object 'Object Repository/Page_Demo Hospital/p_Admin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login - Valid - Pass.run(Login - Valid - Pass:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231218_153447\\Common_regression\\20231218_153451\\1702893933972.png]]
+
+18-12-2023T15:35:34 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Demo Hospital/p_Admin' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Demo Hospital/p_Admin' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login - Valid - Pass.run(Login - Valid - Pass:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'hr' and expected text 'Hr' of test object 'Object Repository/Page_Demo Hospital/p_Admin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231218_153447\\Common_regression\\20231218_153451\\1702893934350.png]]]]></system-out>
+         <system-err><![CDATA[18-12-2023T15:35:13 - [TEST_CASE][FAILED] - Test Cases/Common Test/Login - Valid - Pass: Test Cases/Common Test/Login - Valid - Pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Demo Hospital/p_Admin' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login - Valid - Pass.run(Login - Valid - Pass:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'hr' and expected text 'Hr' of test object 'Object Repository/Page_Demo Hospital/p_Admin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test/Login - Invalid -Id" time="13.298" classname="Test Cases/Common Test/Login - Invalid -Id" status="PASSED">
+         <system-out><![CDATA[18-12-2023T15:35:34 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Invalid -Id: Test Cases/Common Test/Login - Invalid -Id
+
+18-12-2023T15:35:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-12-2023T15:35:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-12-2023T15:35:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T15:35:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T15:35:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T15:35:37 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:35:43 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:35:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_email"), "Akash@gmail.com"): Text 'Akash@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:35:44 - [MESSAGE][PASSED] - Text 'Akash@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:35:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:35:44 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:35:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:35:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Demo Hospital/h3_Sign in"), 0): Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+18-12-2023T15:35:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-12-2023T15:35:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+18-12-2023T15:35:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-12-2023T15:35:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test/Login - Invalid -Pass" time="17.033" classname="Test Cases/Common Test/Login - Invalid -Pass" status="PASSED">
+         <system-out><![CDATA[18-12-2023T15:35:47 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Invalid -Pass: Test Cases/Common Test/Login - Invalid -Pass
+
+18-12-2023T15:35:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-12-2023T15:35:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T15:35:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T15:35:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T15:35:49 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:36:00 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:36:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_email"), ID): Text 'hr@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:36:00 - [MESSAGE][PASSED] - Text 'hr@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:36:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Hospital/input_password"), "1234"): Text '1234' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:36:02 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:36:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:36:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Demo Hospital/h3_Sign in"), 0): Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+18-12-2023T15:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-12-2023T15:36:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+18-12-2023T15:36:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-12-2023T15:36:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test/Login - Invalid -Id - Blank" time="15.821" classname="Test Cases/Common Test/Login - Invalid -Id - Blank" status="PASSED">
+         <system-out><![CDATA[18-12-2023T15:36:04 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Invalid -Id - Blank: Test Cases/Common Test/Login - Invalid -Id - Blank
+
+18-12-2023T15:36:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-12-2023T15:36:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T15:36:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T15:36:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T15:36:07 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:36:15 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:36:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_email"), ""): Text '' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:36:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:36:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:36:17 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:36:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:36:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Demo Hospital/h3_Sign in"), 0): Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+18-12-2023T15:36:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-12-2023T15:36:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+18-12-2023T15:36:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-12-2023T15:36:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test/Login - Invalid -Pass - Blank" time="13.647" classname="Test Cases/Common Test/Login - Invalid -Pass - Blank" status="PASSED">
+         <system-out><![CDATA[18-12-2023T15:36:20 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Invalid -Pass - Blank: Test Cases/Common Test/Login - Invalid -Pass - Blank
+
+18-12-2023T15:36:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-12-2023T15:36:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T15:36:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T15:36:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T15:36:23 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:36:29 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:36:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_email"), ID): Text 'hr@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:36:30 - [MESSAGE][PASSED] - Text 'hr@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:36:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_password"), ""): Text '' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:36:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:36:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Demo Hospital/h3_Sign in"), 0): Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+18-12-2023T15:36:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-12-2023T15:36:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+18-12-2023T15:36:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-12-2023T15:36:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test/Login - Invalid -IdPass- Blank" time="11.925" classname="Test Cases/Common Test/Login - Invalid -IdPass- Blank" status="PASSED">
+         <system-out><![CDATA[18-12-2023T15:36:34 - [TEST_CASE][PASSED] - Test Cases/Common Test/Login - Invalid -IdPass- Blank: Test Cases/Common Test/Login - Invalid -IdPass- Blank
+
+18-12-2023T15:36:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-12-2023T15:36:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T15:36:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T15:36:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T15:36:36 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:36:42 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:36:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_email"), ""): Text '' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:36:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:36:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Demo Hospital/input_password"), ""): Text '' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:36:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:36:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Demo Hospital/h3_Sign in"), 0): Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+18-12-2023T15:36:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-12-2023T15:36:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Hospital/h3_Sign in' is present
+
+18-12-2023T15:36:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-12-2023T15:36:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Patient Management/Add_Patient" time="56.062" classname="Test Cases/Patient Management/Add_Patient" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Patient Management/Add_Patient FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Add_Patient.run(Add_Patient:22)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demo Hospital/i_fa fa-user' located by '//a[@id='reference_2']/i' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[18-12-2023T15:36:46 - [TEST_CASE][FAILED] - Test Cases/Patient Management/Add_Patient: Test Cases/Patient Management/Add_Patient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Add_Patient.run(Add_Patient:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demo Hospital/i_fa fa-user' located by '//a[@id='reference_2']/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+18-12-2023T15:36:47 - [TEST_STEP][PASSED] - loginPage.Login.performLogin(ID, Pass): loginPage.Login.performLogin is PASSED
+
+18-12-2023T15:36:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T15:36:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T15:36:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T15:36:53 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:36:54 - [MESSAGE][PASSED] - Text 'hr@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:36:55 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:37:06 - [MESSAGE][PASSED] - loginPage.Login.performLogin is PASSED
+
+18-12-2023T15:37:06 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Demo Hospital/i_fa fa-user")): Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Add_Patient.run(Add_Patient:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demo Hospital/i_fa fa-user' located by '//a[@id='reference_2']/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1702612850673.run(Script1702612850673.groovy:22)
+	... 15 more
+)
+
+18-12-2023T15:37:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='reference_2']/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-12-2023T15:37:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Demo Hospital/i_fa fa-user'. Try using Self-healing.
+
+18-12-2023T15:37:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='navbar-collapse']/ul/li[3]/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-12-2023T15:37:38 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='reference_2']/i'.
+
+18-12-2023T15:37:39 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[3]/i'.
+
+18-12-2023T15:37:39 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//i[@title = 'Edit']'.
+
+18-12-2023T15:37:39 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='navbar-collapse']/ul/li[3]/a/i'.
+
+18-12-2023T15:37:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//li[3]/a/i'.
+
+18-12-2023T15:37:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@title = 'Edit']'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-12-2023T15:37:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: i.fa.fa-edit'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-12-2023T15:37:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Add_Patient.run(Add_Patient:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demo Hospital/i_fa fa-user' located by '//a[@id='reference_2']/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1702612850673.run(Script1702612850673.groovy:22)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231218_153447\\Common_regression\\20231218_153451\\1702894062267.png]]]]></system-out>
+         <system-err><![CDATA[18-12-2023T15:36:46 - [TEST_CASE][FAILED] - Test Cases/Patient Management/Add_Patient: Test Cases/Patient Management/Add_Patient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Add_Patient.run(Add_Patient:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demo Hospital/i_fa fa-user' located by '//a[@id='reference_2']/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Patient Management/Search_Patient" time="52.073" classname="Test Cases/Patient Management/Search_Patient" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Patient Management/Search_Patient FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Search_Patient.run(Search_Patient:22)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demo Hospital/i_fa fa-user' located by '//a[@id='reference_2']/i' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[18-12-2023T15:37:42 - [TEST_CASE][FAILED] - Test Cases/Patient Management/Search_Patient: Test Cases/Patient Management/Search_Patient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Search_Patient.run(Search_Patient:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demo Hospital/i_fa fa-user' located by '//a[@id='reference_2']/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+18-12-2023T15:37:42 - [TEST_STEP][PASSED] - loginPage.Login.performLogin(ID, Pass): loginPage.Login.performLogin is PASSED
+
+18-12-2023T15:37:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-12-2023T15:37:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-12-2023T15:37:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-12-2023T15:37:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-12-2023T15:37:51 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+18-12-2023T15:37:51 - [MESSAGE][PASSED] - Text 'hr@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+18-12-2023T15:37:52 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+18-12-2023T15:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+18-12-2023T15:37:58 - [MESSAGE][PASSED] - loginPage.Login.performLogin is PASSED
+
+18-12-2023T15:37:58 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Demo Hospital/i_fa fa-user")): Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Search_Patient.run(Search_Patient:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demo Hospital/i_fa fa-user' located by '//a[@id='reference_2']/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1702630509845.run(Script1702630509845.groovy:22)
+	... 15 more
+)
+
+18-12-2023T15:38:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='reference_2']/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-12-2023T15:38:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Demo Hospital/i_fa fa-user'. Try using Self-healing.
+
+18-12-2023T15:38:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='navbar-collapse']/ul/li[3]/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-12-2023T15:38:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='reference_2']/i'.
+
+18-12-2023T15:38:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[3]/i'.
+
+18-12-2023T15:38:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//i[@title = 'Edit']'.
+
+18-12-2023T15:38:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='navbar-collapse']/ul/li[3]/a/i'.
+
+18-12-2023T15:38:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//li[3]/a/i'.
+
+18-12-2023T15:38:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@title = 'Edit']'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-12-2023T15:38:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: i.fa.fa-edit'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-12-2023T15:38:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Search_Patient.run(Search_Patient:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demo Hospital/i_fa fa-user' located by '//a[@id='reference_2']/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1702630509845.run(Script1702630509845.groovy:22)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231218_153447\\Common_regression\\20231218_153451\\1702894114276.png]]]]></system-out>
+         <system-err><![CDATA[18-12-2023T15:37:42 - [TEST_CASE][FAILED] - Test Cases/Patient Management/Search_Patient: Test Cases/Patient Management/Search_Patient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Demo Hospital/i_fa fa-user'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Search_Patient.run(Search_Patient:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demo Hospital/i_fa fa-user' located by '//a[@id='reference_2']/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-12-2023T15:35:12 - [TEST_SUITE][FAILED] - Common_regression: Test Cases/Common Test/Login - Valid - Pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Demo Hospital/p_Admin' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login - Valid - Pass.run(Login - Valid - Pass:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'hr' and expected text 'Hr' of test object 'Object Repository/Page_Demo Hospital/p_Admin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[18-12-2023T15:35:12 - [TEST_SUITE][FAILED] - Common_regression: Test Cases/Common Test/Login - Valid - Pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Demo Hospital/p_Admin' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login - Valid - Pass.run(Login - Valid - Pass:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1702893891992.run(TempTestSuite1702893891992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'hr' and expected text 'Hr' of test object 'Object Repository/Page_Demo Hospital/p_Admin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

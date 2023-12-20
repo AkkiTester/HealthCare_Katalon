@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Login - Valid - Pass</name>
-   <tag></tag>
+   <tag>Smoke</tag>
    <comment></comment>
    <testCaseGuid>3d75fad4-01b5-4f5e-8eb4-d966e20eb29d</testCaseGuid>
 </TestCaseEntity>

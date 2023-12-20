@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin" time="39.309" tests="1" failures="0" errors="0">
+   <testsuite name="Admin" tests="1" failures="0" errors="0" time="39.309" skipped="0" timestamp="19-12-2023T21:05:22" hostname="ADMIN - DESKTOP-28CK1DU.mshome.net" id="Test Suites/Admin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231219_210503\\Admin\\20231219_210503"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231219_210503\\Admin\\20231219_210503\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADMIN - DESKTOP-28CK1DU.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="172.25.192.1"/>
+         <property name="sessionId" value="ecaa8d260c475cbd73a0b02907ec1834"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin/Admin_Fun_Hr" time="38.338" classname="Test Cases/Admin/Admin_Fun_Hr" status="PASSED">
+         <system-out><![CDATA[19-12-2023T21:05:23 - [TEST_CASE][PASSED] - Test Cases/Admin/Admin_Fun_Hr: Test Cases/Admin/Admin_Fun_Hr
+
+19-12-2023T21:05:25 - [TEST_STEP][PASSED] - loginPage.Login.performLogin(ID, Pass): loginPage.Login.performLogin is PASSED
+
+19-12-2023T21:05:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-12-2023T21:05:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-12-2023T21:05:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-12-2023T21:05:43 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+19-12-2023T21:05:45 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/Page_Demo Hospital/input_email'
+
+19-12-2023T21:05:46 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Demo Hospital/input_password'
+
+19-12-2023T21:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Hospital/input_custom-btn' is clicked on
+
+19-12-2023T21:05:50 - [MESSAGE][PASSED] - loginPage.Login.performLogin is PASSED
+
+19-12-2023T21:05:50 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Admin/Page_Demo Hospital/a_HR")): Object: 'Object Repository/Admin/Page_Demo Hospital/a_HR' is right clicked on
+
+19-12-2023T21:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Page_Demo Hospital/a_HR' is right clicked on
+
+19-12-2023T21:05:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Admin/Page_Demo Hospital/a_HR")): Object 'Object Repository/Admin/Page_Demo Hospital/a_HR' is visible
+
+19-12-2023T21:05:52 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Page_Demo Hospital/a_HR' is visible
+
+19-12-2023T21:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Page_Demo Hospital/a_HR")): Object: 'Object Repository/Admin/Page_Demo Hospital/a_HR' is clicked on
+
+19-12-2023T21:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Page_Demo Hospital/a_HR' is clicked on
+
+19-12-2023T21:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Page_Demo Hospital/a_Staff")): Object: 'Object Repository/Admin/Page_Demo Hospital/a_Staff' is clicked on
+
+19-12-2023T21:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Page_Demo Hospital/a_Staff' is clicked on
+
+19-12-2023T21:05:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Admin/Page_Demo Hospital/h1_Staff List"), "Staff List"): Actual text and expected text of test object 'Object Repository/Admin/Page_Demo Hospital/h1_Staff List' are matched.
+
+19-12-2023T21:05:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin/Page_Demo Hospital/h1_Staff List' are matched.
+
+19-12-2023T21:05:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-12-2023T21:06:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-12-2023T21:05:22 - [TEST_SUITE][PASSED] - Admin: Test Cases/Admin/Admin_Fun_Hr]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
