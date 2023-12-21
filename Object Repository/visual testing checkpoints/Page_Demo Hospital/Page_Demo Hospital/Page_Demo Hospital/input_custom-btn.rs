@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_custom-btn</name>
+   <tag></tag>
+   <elementGuidId>3a46c008-9aa9-431c-b4e6-7ce1c40cf027</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Sign In']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.custom-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>e99cbc08-448e-43de-b9fc-a1fe73a7ab0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>bf7bae1f-3fdd-4764-8844-619aa7774951</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-btn</value>
+      <webElementGuid>78906e93-6701-47db-abf6-eacbaa7ef31a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Sign In</value>
+      <webElementGuid>48aa9e63-4301-4c0e-a3a2-7fc077934ec1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/div[@class=&quot;form-container&quot;]/form[1]/input[@class=&quot;custom-btn&quot;]</value>
+      <webElementGuid>af7eee56-b2a6-4584-a934-f0cb51dcc658</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Sign In']</value>
+      <webElementGuid>da872e5e-7ba2-4b29-8fbd-141866ff8060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input[4]</value>
+      <webElementGuid>96566657-2fc4-40bf-b523-bdbe73d46536</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit']</value>
+      <webElementGuid>9a4c33bd-d0a7-42ed-aa94-0f1e041872d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

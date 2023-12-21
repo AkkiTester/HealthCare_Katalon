@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_Demo  Hospital</name>
+   <tag></tag>
+   <elementGuidId>e454c0b7-bee8-4bf7-9d60-b8c73eeb0430</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//b</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>ad174889-87ce-4020-b125-40509eea6cbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Demo  Hospital</value>
+      <webElementGuid>02f102dc-81a0-46f4-85a9-297a60b34d5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-blue-light layout-top-nav  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/header[@class=&quot;main-header&quot;]/nav[@class=&quot;navbar navbar-static-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;navbar-header&quot;]/a[@class=&quot;navbar-brand&quot;]/b[1]</value>
+      <webElementGuid>029737d9-5db3-4bee-9439-1b6bf7a22e1c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//b</value>
+      <webElementGuid>9e6cd971-ed6b-45f7-9329-84818e2a486c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = 'Demo  Hospital' or . = 'Demo  Hospital')]</value>
+      <webElementGuid>9c9675bb-86b4-4a98-8c66-6631dc363a3e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

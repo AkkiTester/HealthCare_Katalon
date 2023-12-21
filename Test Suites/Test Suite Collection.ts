@@ -10,9 +10,24 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Admin</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 274,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;firefox&quot;,
+  &quot;browserDisplayName&quot;: &quot;Firefox&quot;,
+  &quot;browserVersion&quot;: &quot;115&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Patient_Regression</testSuiteEntity>
@@ -24,7 +39,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Common_regression</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>

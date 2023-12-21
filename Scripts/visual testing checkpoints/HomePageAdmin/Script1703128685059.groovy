@@ -21,12 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hospitalb.com/login')
 
-WebUI.takeScreenshotAsCheckpoint('LoginPage')
+WebUI.setText(findTestObject('Object Repository/visual testing checkpoints/Page_Demo Hospital/input_email'), 'admin@gmail.com')
 
-WebUI.takeScreenshotAsCheckpoint('LoginPage2')
+WebUI.setEncryptedText(findTestObject('Object Repository/visual testing checkpoints/Page_Demo Hospital/input_password'), 
+    'aeHFOx8jV/A=')
 
-WebUI.verifyElementText(findTestObject('Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/h2_Demo  Hospital'), 
+WebUI.click(findTestObject('Object Repository/visual testing checkpoints/Page_Demo Hospital/input_custom-btn'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/visual testing checkpoints/Page_Demo Hospital/b_Demo  Hospital'), 
     'Demo Hospital')
+
+WebUI.takeScreenshotAsCheckpoint('HomePageAdmin')
 
 WebUI.closeBrowser()
 

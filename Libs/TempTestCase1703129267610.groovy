@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\ADMIN\\AppData\\Local\\Temp\\Katalon\\Test Cases\\visual testing checkpoints\\Login_Page\\20231220_070517\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\ADMIN\\AppData\\Local\\Temp\\Katalon\\Test Cases\\visual testing checkpoints\\HRDashBordPage\\20231221_085747\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/visual testing checkpoints/Login_Page', new TestCaseBinding('Test Cases/visual testing checkpoints/Login_Page',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/visual testing checkpoints/HRDashBordPage', new TestCaseBinding('Test Cases/visual testing checkpoints/HRDashBordPage',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

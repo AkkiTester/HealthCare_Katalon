@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Patient_Regression,Linux - Firefox 115.0,,,20-12-2023 11:32:43,20-12-2023 11:40:04,7m - 21.261s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Add_Patient,Linux - Firefox 115.0,,Smoke,20-12-2023 11:32:44,20-12-2023 11:36:28,3m - 44.103s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Linux - Firefox 115.0,,,20-12-2023 11:32:46,20-12-2023 11:33:53,1m - 7.415s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-user""))",Linux - Firefox 115.0,,,20-12-2023 11:33:53,20-12-2023 11:34:28,35.559s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/a_Add Patient""))",Linux - Firefox 115.0,,,20-12-2023 11:34:28,20-12-2023 11:34:32,3.611s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_full_name""), ""Test12"")",Linux - Firefox 115.0,,,20-12-2023 11:34:32,20-12-2023 11:34:39,6.699s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_user_name""), ""TestUser"")",Linux - Firefox 115.0,,,20-12-2023 11:34:39,20-12-2023 11:34:46,6.859s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_mobile_no""), ""1111111111"")",Linux - Firefox 115.0,,,20-12-2023 11:34:46,20-12-2023 11:34:52,6.751s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther""), ""1"", true)",Linux - Firefox 115.0,,,20-12-2023 11:34:52,20-12-2023 11:35:10,17.362s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select GenderMaleFemaleOther""), ""1"", true)",Linux - Firefox 115.0,,,20-12-2023 11:35:10,20-12-2023 11:35:26,16.153s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/input_dob""))",Linux - Firefox 115.0,,,20-12-2023 11:35:26,20-12-2023 11:35:29,3.395s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/td_1""))",Linux - Firefox 115.0,,,20-12-2023 11:35:29,20-12-2023 11:35:33,3.568s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Next""))",Linux - Firefox 115.0,,,20-12-2023 11:35:33,20-12-2023 11:35:36,3.221s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e""))",Linux - Firefox 115.0,,,20-12-2023 11:35:36,20-12-2023 11:35:40,3.495s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Page_Demo Hospital/select_Please Select Patient Blood GroupABA_6d419e""), ""1"", STOP_ON_FAILURE)",Linux - Firefox 115.0,,,20-12-2023 11:35:40,20-12-2023 11:35:52,11.973s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Next""))",Linux - Firefox 115.0,,,20-12-2023 11:35:52,20-12-2023 11:35:55,3.432s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_email_1""), ""testuser@gmail.com"")",Linux - Firefox 115.0,,,20-12-2023 11:35:55,20-12-2023 11:36:02,6.586s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_password_1""), ""Test@123"")",Linux - Firefox 115.0,,,20-12-2023 11:36:02,20-12-2023 11:36:08,6.720s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_confirm_password""), ""Test@123"")",Linux - Firefox 115.0,,,20-12-2023 11:36:08,20-12-2023 11:36:15,6.863s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Finish""))",Linux - Firefox 115.0,,,20-12-2023 11:36:15,20-12-2023 11:36:19,3.386s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_form-control input-sm""), ""Test12"")",Linux - Firefox 115.0,,,20-12-2023 11:36:19,20-12-2023 11:36:24,5.376s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/td_Test12""), ""Test12"")",Linux - Firefox 115.0,,,20-12-2023 11:36:24,20-12-2023 11:36:27,3.126s,PASSED
+closeBrowser(),Linux - Firefox 115.0,,,20-12-2023 11:36:27,20-12-2023 11:36:28,1.300s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Edit_Patient_Info,Linux - Firefox 115.0,,,20-12-2023 11:36:28,20-12-2023 11:38:30,2m - 1.929s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Linux - Firefox 115.0,,,20-12-2023 11:36:29,20-12-2023 11:37:18,48.966s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-user""))",Linux - Firefox 115.0,,,20-12-2023 11:37:18,20-12-2023 11:37:52,34.542s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_form-control input-sm""), ""xyz"")",Linux - Firefox 115.0,,,20-12-2023 11:37:52,20-12-2023 11:37:59,6.999s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-edit""))",Linux - Firefox 115.0,,,20-12-2023 11:37:59,20-12-2023 11:38:03,3.650s,PASSED
+"navigateToUrl(""https://hospitalb.com/outdoor/edit-patient/2#step-1"")",Linux - Firefox 115.0,,,20-12-2023 11:38:03,20-12-2023 11:38:04,0.726s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_mobile_no""), ""1234567890"")",Linux - Firefox 115.0,,,20-12-2023 11:38:04,20-12-2023 11:38:11,6.999s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/button_Finish""))",Linux - Firefox 115.0,,,20-12-2023 11:38:11,20-12-2023 11:38:14,3.709s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Hospital/input_form-control input-sm""), ""xyz"")",Linux - Firefox 115.0,,,20-12-2023 11:38:14,20-12-2023 11:38:21,7.049s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Demo Hospital/td_1234567890""))",Linux - Firefox 115.0,,,20-12-2023 11:38:21,20-12-2023 11:38:25,3.697s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/td_1234567890""), ""1234567890"")",Linux - Firefox 115.0,,,20-12-2023 11:38:25,20-12-2023 11:38:29,3.590s,PASSED
+closeBrowser(),Linux - Firefox 115.0,,,20-12-2023 11:38:29,20-12-2023 11:38:30,1.655s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Search_Patient,Linux - Firefox 115.0,,,20-12-2023 11:38:30,20-12-2023 11:40:04,1m - 34.114s,PASSED
+"loginPage.Login.performLogin(ID, Pass)",Linux - Firefox 115.0,,,20-12-2023 11:38:31,20-12-2023 11:39:17,46.291s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Hospital/i_fa fa-user""))",Linux - Firefox 115.0,,,20-12-2023 11:39:17,20-12-2023 11:39:53,36.027s,PASSED
+"setText(findTestObject(""Page_Demo Hospital/input_form-control input-sm""), ""Test12"")",Linux - Firefox 115.0,,,20-12-2023 11:39:53,20-12-2023 11:39:59,6.583s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Hospital/td_Test12""), ""Test12"")",Linux - Firefox 115.0,,,20-12-2023 11:40:00,20-12-2023 11:40:03,3.352s,PASSED
+closeBrowser(),Linux - Firefox 115.0,,,20-12-2023 11:40:03,20-12-2023 11:40:04,1.592s,PASSED

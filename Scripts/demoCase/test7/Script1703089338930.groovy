@@ -19,14 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hospitalb.com/login')
+WebUI.navigateToUrl('https://akashdilwale.netlify.app/')
 
-WebUI.takeScreenshotAsCheckpoint('LoginPage')
-
-WebUI.takeScreenshotAsCheckpoint('LoginPage2')
-
-WebUI.verifyElementText(findTestObject('Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/h2_Demo  Hospital'), 
-    'Demo Hospital')
+WebUI.verifyElementText(findTestObject('Object Repository/AkashDil/Page_Akash Dilwale/h2_About'), 'About')
 
 WebUI.closeBrowser()
 
