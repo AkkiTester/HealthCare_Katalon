@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_fa fa-medkit</name>
+   <tag></tag>
+   <elementGuidId>5661117f-416d-4a91-82ae-3d6eabc70ec6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbar-collapse']/ul/li[7]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(7) > a.btn.btn-app > i.fa.fa-medkit</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>715c7262-eb38-4682-97dd-0671e4d78c24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-medkit</value>
+      <webElementGuid>1793e093-7c88-44eb-b619-2c07fd7fb136</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbar-collapse&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[7]/a[@class=&quot;btn btn-app&quot;]/i[@class=&quot;fa fa-medkit&quot;]</value>
+      <webElementGuid>2d7359b3-5c5e-4d56-a1c3-abe7ef25bca8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbar-collapse']/ul/li[7]/a/i</value>
+      <webElementGuid>266ea4f6-63fa-446e-8faa-e140d0f7c9b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/a/i</value>
+      <webElementGuid>964ff972-cdd8-4ee7-a263-2357dbf0669b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

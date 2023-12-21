@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VisualTest" time="75.898" tests="5" failures="0" errors="0">
+   <testsuite name="VisualTest" tests="5" failures="0" errors="0" time="75.898" skipped="0" timestamp="21-12-2023T09:37:05" hostname="ADMIN - DESKTOP-28CK1DU.mshome.net" id="Test Suites/VisualTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231221_093655\\VisualTest\\20231221_093655"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\Katalon Studio\\My First Project\\Reports\\20231221_093655\\VisualTest\\20231221_093655\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-LoginPage.png, keyes\keyes-LoginPage2.png, keyes\keyes-HomePageAdmin.png, keyes\keyes-HRLoginPage.png, keyes\keyes-HRDashBord.png, keyes\keyes-pathologistLoginPage.png, keyes\keyes-pathologistDashBord.png, keyes\keyes-radiologistLoginPage.png, keyes\keyes-radiologistDashBord.png"/>
+         <property name="hostName" value="ADMIN - DESKTOP-28CK1DU.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="172.25.192.1"/>
+         <property name="sessionId" value="2f83d57939adb0d3baf8c32f3f3fd4cb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/visual testing checkpoints/Login_Page" time="12.611" classname="Test Cases/visual testing checkpoints/Login_Page" status="PASSED">
+         <system-out><![CDATA[21-12-2023T09:37:05 - [TEST_CASE][PASSED] - Test Cases/visual testing checkpoints/Login_Page: Test Cases/visual testing checkpoints/Login_Page
+
+21-12-2023T09:37:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-12-2023T09:37:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2023T09:37:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2023T09:37:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-12-2023T09:37:09 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+21-12-2023T09:37:14 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+21-12-2023T09:37:14 - [TEST_STEP][PASSED] - waitForPageLoad(4): Wait for page load successfully
+
+21-12-2023T09:37:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+21-12-2023T09:37:14 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("LoginPage"): Taking screenshot successfully
+
+21-12-2023T09:37:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+21-12-2023T09:37:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-LoginPage.png]]
+
+21-12-2023T09:37:16 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("LoginPage2"): Taking screenshot successfully
+
+21-12-2023T09:37:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+21-12-2023T09:37:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-LoginPage2.png]]
+
+21-12-2023T09:37:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/h2_Demo  Hospital"), "Demo Hospital"): Actual text and expected text of test object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/h2_Demo  Hospital' are matched.
+
+21-12-2023T09:37:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/h2_Demo  Hospital' are matched.
+
+21-12-2023T09:37:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-12-2023T09:37:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/visual testing checkpoints/HomePageAdmin" time="15.635" classname="Test Cases/visual testing checkpoints/HomePageAdmin" status="PASSED">
+         <system-out><![CDATA[21-12-2023T09:37:18 - [TEST_CASE][PASSED] - Test Cases/visual testing checkpoints/HomePageAdmin: Test Cases/visual testing checkpoints/HomePageAdmin
+
+21-12-2023T09:37:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-12-2023T09:37:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2023T09:37:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2023T09:37:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-12-2023T09:37:19 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+21-12-2023T09:37:22 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+21-12-2023T09:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/input_email"), "admin@gmail.com"): Text 'admin@gmail.com' is set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/input_email'
+
+21-12-2023T09:37:25 - [MESSAGE][PASSED] - Text 'admin@gmail.com' is set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/input_email'
+
+21-12-2023T09:37:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/input_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/input_password'
+
+21-12-2023T09:37:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/input_password'
+
+21-12-2023T09:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/visual testing checkpoints/Page_Demo Hospital/input_custom-btn' is clicked on
+
+21-12-2023T09:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/visual testing checkpoints/Page_Demo Hospital/input_custom-btn' is clicked on
+
+21-12-2023T09:37:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/b_Demo  Hospital"), "Demo Hospital"): Actual text and expected text of test object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/b_Demo  Hospital' are matched.
+
+21-12-2023T09:37:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/b_Demo  Hospital' are matched.
+
+21-12-2023T09:37:32 - [TEST_STEP][PASSED] - waitForPageLoad(4): Wait for page load successfully
+
+21-12-2023T09:37:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+21-12-2023T09:37:32 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("HomePageAdmin"): Taking screenshot successfully
+
+21-12-2023T09:37:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+21-12-2023T09:37:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-HomePageAdmin.png]]
+
+21-12-2023T09:37:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-12-2023T09:37:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/visual testing checkpoints/HRDashBordPage" time="15.238" classname="Test Cases/visual testing checkpoints/HRDashBordPage" status="PASSED">
+         <system-out><![CDATA[21-12-2023T09:37:33 - [TEST_CASE][PASSED] - Test Cases/visual testing checkpoints/HRDashBordPage: Test Cases/visual testing checkpoints/HRDashBordPage
+
+21-12-2023T09:37:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-12-2023T09:37:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2023T09:37:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2023T09:37:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-12-2023T09:37:35 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+21-12-2023T09:37:40 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+21-12-2023T09:37:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_email"), "hr@gmail.com"): Text 'hr@gmail.com' is set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_email'
+
+21-12-2023T09:37:41 - [MESSAGE][PASSED] - Text 'hr@gmail.com' is set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_email'
+
+21-12-2023T09:37:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_password'
+
+21-12-2023T09:37:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_password'
+
+21-12-2023T09:37:41 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("HRLoginPage"): Taking screenshot successfully
+
+21-12-2023T09:37:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+21-12-2023T09:37:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-HRLoginPage.png]]
+
+21-12-2023T09:37:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn' is clicked on
+
+21-12-2023T09:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn' is clicked on
+
+21-12-2023T09:37:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/h1_Demo  Hospital Statistics"), "Demo Hospital Statistics"): Actual text and expected text of test object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/h1_Demo  Hospital Statistics' are matched.
+
+21-12-2023T09:37:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/h1_Demo  Hospital Statistics' are matched.
+
+21-12-2023T09:37:48 - [TEST_STEP][PASSED] - waitForPageLoad(4): Wait for page load successfully
+
+21-12-2023T09:37:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+21-12-2023T09:37:48 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("HRDashBord"): Taking screenshot successfully
+
+21-12-2023T09:37:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+21-12-2023T09:37:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-HRDashBord.png]]
+
+21-12-2023T09:37:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-12-2023T09:37:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/visual testing checkpoints/PathologistPageC" time="16.972" classname="Test Cases/visual testing checkpoints/PathologistPageC" status="PASSED">
+         <system-out><![CDATA[21-12-2023T09:37:49 - [TEST_CASE][PASSED] - Test Cases/visual testing checkpoints/PathologistPageC: Test Cases/visual testing checkpoints/PathologistPageC
+
+21-12-2023T09:37:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-12-2023T09:37:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2023T09:37:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2023T09:37:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-12-2023T09:37:50 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+21-12-2023T09:37:55 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+21-12-2023T09:37:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_email"), "pathologist@gmail.com"): Text 'pathologist@gmail.com' is set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_email'
+
+21-12-2023T09:37:56 - [MESSAGE][PASSED] - Text 'pathologist@gmail.com' is set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_email'
+
+21-12-2023T09:37:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_password'
+
+21-12-2023T09:37:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_password'
+
+21-12-2023T09:37:57 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("pathologistLoginPage"): Taking screenshot successfully
+
+21-12-2023T09:37:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+21-12-2023T09:37:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-pathologistLoginPage.png]]
+
+21-12-2023T09:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn' is clicked on
+
+21-12-2023T09:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn' is clicked on
+
+21-12-2023T09:38:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/h1_Demo  Hospital Statistics"), "Demo Hospital Statistics"): Actual text and expected text of test object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/h1_Demo  Hospital Statistics' are matched.
+
+21-12-2023T09:38:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/h1_Demo  Hospital Statistics' are matched.
+
+21-12-2023T09:38:04 - [TEST_STEP][PASSED] - waitForPageLoad(4): Wait for page load successfully
+
+21-12-2023T09:38:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+21-12-2023T09:38:05 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("pathologistDashBord"): Taking screenshot successfully
+
+21-12-2023T09:38:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+21-12-2023T09:38:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-pathologistDashBord.png]]
+
+21-12-2023T09:38:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-12-2023T09:38:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/visual testing checkpoints/radiologistVCPage" time="15.018" classname="Test Cases/visual testing checkpoints/radiologistVCPage" status="PASSED">
+         <system-out><![CDATA[21-12-2023T09:38:06 - [TEST_CASE][PASSED] - Test Cases/visual testing checkpoints/radiologistVCPage: Test Cases/visual testing checkpoints/radiologistVCPage
+
+21-12-2023T09:38:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-12-2023T09:38:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2023T09:38:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2023T09:38:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-12-2023T09:38:07 - [TEST_STEP][PASSED] - navigateToUrl("https://hospitalb.com/login"): Navigate to 'https://hospitalb.com/login' successfully
+
+21-12-2023T09:38:12 - [MESSAGE][PASSED] - Navigate to 'https://hospitalb.com/login' successfully
+
+21-12-2023T09:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_email"), "radiologist@gmail.com"): Text 'radiologist@gmail.com' is set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_email'
+
+21-12-2023T09:38:13 - [MESSAGE][PASSED] - Text 'radiologist@gmail.com' is set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_email'
+
+21-12-2023T09:38:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_password'
+
+21-12-2023T09:38:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_password'
+
+21-12-2023T09:38:14 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("radiologistLoginPage"): Taking screenshot successfully
+
+21-12-2023T09:38:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+21-12-2023T09:38:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-radiologistLoginPage.png]]
+
+21-12-2023T09:38:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn")): Object: 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn' is clicked on
+
+21-12-2023T09:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn' is clicked on
+
+21-12-2023T09:38:20 - [TEST_STEP][PASSED] - waitForPageLoad(4): Wait for page load successfully
+
+21-12-2023T09:38:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+21-12-2023T09:38:20 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("radiologistDashBord"): Taking screenshot successfully
+
+21-12-2023T09:38:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+21-12-2023T09:38:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-radiologistDashBord.png]]
+
+21-12-2023T09:38:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-12-2023T09:38:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-12-2023T09:37:05 - [TEST_SUITE][PASSED] - VisualTest: Test Cases/visual testing checkpoints/radiologistVCPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
