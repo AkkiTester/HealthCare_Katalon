@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Object Repository/visual testing checkpoints/Page_De
 WebUI.verifyElementText(findTestObject('Object Repository/visual testing checkpoints/Page_Demo Hospital/b_Demo  Hospital'), 
     'Demo Hospital')
 
+WebUI.waitForPageLoad(4)
+
 WebUI.takeScreenshotAsCheckpoint('HomePageAdmin')
 
 WebUI.closeBrowser()

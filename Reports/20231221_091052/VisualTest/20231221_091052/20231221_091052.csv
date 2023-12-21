@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VisualTest,Chrome 120.0.0.0,,,21-12-2023 09:11:03,21-12-2023 09:12:38,1m - 35.119s,PASSED
+,,,,,,,
+Test Cases/visual testing checkpoints/Login_Page,Chrome 120.0.0.0,,,21-12-2023 09:11:26,21-12-2023 09:11:36,9.525s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,21-12-2023 09:11:27,21-12-2023 09:11:28,1.272s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,21-12-2023 09:11:28,21-12-2023 09:11:33,5.205s,PASSED
+"takeScreenshotAsCheckpoint(""LoginPage"")",Chrome 120.0.0.0,,,21-12-2023 09:11:33,21-12-2023 09:11:34,1.140s,PASSED
+"takeScreenshotAsCheckpoint(""LoginPage2"")",Chrome 120.0.0.0,,,21-12-2023 09:11:34,21-12-2023 09:11:35,1.106s,PASSED
+"verifyElementText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/h2_Demo  Hospital""), ""Demo Hospital"")",Chrome 120.0.0.0,,,21-12-2023 09:11:35,21-12-2023 09:11:36,0.421s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,21-12-2023 09:11:36,21-12-2023 09:11:36,0.304s,PASSED
+,,,,,,,
+Test Cases/visual testing checkpoints/HomePageAdmin,Chrome 120.0.0.0,,,21-12-2023 09:11:36,21-12-2023 09:11:51,15.054s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,21-12-2023 09:11:36,21-12-2023 09:11:37,1.021s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,21-12-2023 09:11:37,21-12-2023 09:11:42,4.640s,PASSED
+"setText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/input_email""), ""admin@gmail.com"")",Chrome 120.0.0.0,,,21-12-2023 09:11:42,21-12-2023 09:11:43,1.039s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/input_password""), ""aeHFOx8jV/A="")",Chrome 120.0.0.0,,,21-12-2023 09:11:43,21-12-2023 09:11:44,0.706s,PASSED
+"click(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,21-12-2023 09:11:44,21-12-2023 09:11:50,5.960s,PASSED
+"verifyElementText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/b_Demo  Hospital""), ""Demo Hospital"")",Chrome 120.0.0.0,,,21-12-2023 09:11:50,21-12-2023 09:11:50,0.473s,PASSED
+"takeScreenshotAsCheckpoint(""HomePageAdmin"")",Chrome 120.0.0.0,,,21-12-2023 09:11:50,21-12-2023 09:11:51,0.796s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,21-12-2023 09:11:51,21-12-2023 09:11:51,0.264s,PASSED
+,,,,,,,
+Test Cases/visual testing checkpoints/HRDashBordPage,Chrome 120.0.0.0,,,21-12-2023 09:11:51,21-12-2023 09:12:07,15.800s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,21-12-2023 09:11:51,21-12-2023 09:11:52,1.166s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,21-12-2023 09:11:52,21-12-2023 09:11:58,5.445s,PASSED
+"setText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_email""), ""hr@gmail.com"")",Chrome 120.0.0.0,,,21-12-2023 09:11:58,21-12-2023 09:11:59,0.879s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_password""), ""aeHFOx8jV/A="")",Chrome 120.0.0.0,,,21-12-2023 09:11:59,21-12-2023 09:11:59,0.566s,PASSED
+"takeScreenshotAsCheckpoint(""HRLoginPage"")",Chrome 120.0.0.0,,,21-12-2023 09:11:59,21-12-2023 09:12:00,1.117s,PASSED
+"click(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,21-12-2023 09:12:00,21-12-2023 09:12:05,4.865s,PASSED
+"verifyElementText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/h1_Demo  Hospital Statistics""), ""Demo Hospital Statistics"")",Chrome 120.0.0.0,,,21-12-2023 09:12:05,21-12-2023 09:12:06,0.388s,PASSED
+"takeScreenshotAsCheckpoint(""HRDashBord"")",Chrome 120.0.0.0,,,21-12-2023 09:12:06,21-12-2023 09:12:06,0.757s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,21-12-2023 09:12:06,21-12-2023 09:12:07,0.382s,PASSED
+,,,,,,,
+Test Cases/visual testing checkpoints/PathologistPageC,Chrome 120.0.0.0,,,21-12-2023 09:12:07,21-12-2023 09:12:24,16.873s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,21-12-2023 09:12:07,21-12-2023 09:12:08,1.041s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,21-12-2023 09:12:08,21-12-2023 09:12:13,4.933s,PASSED
+"setText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_email""), ""pathologist@gmail.com"")",Chrome 120.0.0.0,,,21-12-2023 09:12:13,21-12-2023 09:12:14,0.840s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_password""), ""aeHFOx8jV/A="")",Chrome 120.0.0.0,,,21-12-2023 09:12:14,21-12-2023 09:12:14,0.493s,PASSED
+"takeScreenshotAsCheckpoint(""pathologistLoginPage"")",Chrome 120.0.0.0,,,21-12-2023 09:12:14,21-12-2023 09:12:15,1.070s,PASSED
+"click(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,21-12-2023 09:12:15,21-12-2023 09:12:22,6.742s,PASSED
+"verifyElementText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/h1_Demo  Hospital Statistics""), ""Demo Hospital Statistics"")",Chrome 120.0.0.0,,,21-12-2023 09:12:22,21-12-2023 09:12:23,0.379s,PASSED
+"takeScreenshotAsCheckpoint(""pathologistDashBord"")",Chrome 120.0.0.0,,,21-12-2023 09:12:23,21-12-2023 09:12:23,0.782s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,21-12-2023 09:12:23,21-12-2023 09:12:24,0.414s,PASSED
+,,,,,,,
+Test Cases/visual testing checkpoints/radiologistVCPage,Chrome 120.0.0.0,,,21-12-2023 09:12:24,21-12-2023 09:12:38,14.697s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,21-12-2023 09:12:24,21-12-2023 09:12:25,1.101s,PASSED
+"navigateToUrl(""https://hospitalb.com/login"")",Chrome 120.0.0.0,,,21-12-2023 09:12:25,21-12-2023 09:12:28,2.810s,PASSED
+"setText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_email""), ""radiologist@gmail.com"")",Chrome 120.0.0.0,,,21-12-2023 09:12:28,21-12-2023 09:12:31,3.249s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_password""), ""aeHFOx8jV/A="")",Chrome 120.0.0.0,,,21-12-2023 09:12:31,21-12-2023 09:12:32,0.480s,PASSED
+"takeScreenshotAsCheckpoint(""radiologistLoginPage"")",Chrome 120.0.0.0,,,21-12-2023 09:12:32,21-12-2023 09:12:33,1.089s,PASSED
+"click(findTestObject(""Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn""))",Chrome 120.0.0.0,,,21-12-2023 09:12:33,21-12-2023 09:12:37,4.669s,PASSED
+"takeScreenshotAsCheckpoint(""radiologistDashBord"")",Chrome 120.0.0.0,,,21-12-2023 09:12:37,21-12-2023 09:12:38,0.722s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,21-12-2023 09:12:38,21-12-2023 09:12:38,0.407s,PASSED

@@ -31,6 +31,8 @@ WebUI.takeScreenshotAsCheckpoint('radiologistLoginPage')
 
 WebUI.click(findTestObject('Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/input_custom-btn'))
 
+WebUI.waitForPageLoad(4)
+
 WebUI.takeScreenshotAsCheckpoint('radiologistDashBord')
 
 WebUI.closeBrowser()

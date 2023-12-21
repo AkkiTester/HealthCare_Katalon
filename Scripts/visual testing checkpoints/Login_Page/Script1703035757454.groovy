@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hospitalb.com/login')
 
+WebUI.waitForPageLoad(4)
+
 WebUI.takeScreenshotAsCheckpoint('LoginPage')
 
 WebUI.takeScreenshotAsCheckpoint('LoginPage2')

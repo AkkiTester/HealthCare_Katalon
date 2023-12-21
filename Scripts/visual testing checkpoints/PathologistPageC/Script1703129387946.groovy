@@ -34,6 +34,8 @@ WebUI.click(findTestObject('Object Repository/visual testing checkpoints/Page_De
 WebUI.verifyElementText(findTestObject('Object Repository/visual testing checkpoints/Page_Demo Hospital/Page_Demo Hospital/Page_Demo Hospital/h1_Demo  Hospital Statistics'), 
     'Demo Hospital Statistics')
 
+WebUI.waitForPageLoad(4)
+
 WebUI.takeScreenshotAsCheckpoint('pathologistDashBord')
 
 WebUI.closeBrowser()
